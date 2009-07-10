@@ -1,0 +1,96 @@
+Title:				Test Letter
+Author:				Fletcher T. Penney
+recipient:			Some Person
+Recipient Address:	321 Main St  
+					New York, NY  54321
+Date:				December 15, 2007
+latex xslt:			custom-letterhead.xslt
+graphic signature:	true
+base header level:	2
+
+
+To Whom It May Concern,
+
+This  is  a  sample  document  to demonstrate  the  new  letterhead  XSLT  for
+MultiMarkdown. It  is designed to  be pretty complete  in itself, but  is also
+flexible  enough to  allow  for custom  fonts  and logos  on  the cover  page.
+Additionally, you can designate default return address information in your own
+stylesheet, so that you don't have to enter it in every document.
+
+The letterhead feature requires that you install the `mmd-letterhead.sty` file
+(available  from   <http://files.fletcherpenney.net/mmd-letterhead.zip>).  You
+install  it the  same way  you  install other  LaTeX stylesheets.  To use  the
+envelope feature, you must install `mmd-envelope.sty`.
+
+Additionally,  this sample  document  uses  the `custom-letterhead.xslt`  XSLT
+stylesheet (included  with MultiMarkdown), and the  `fletcherpenney.sty` LaTeX
+stylesheet,       which      is       available       on      my       website
+(<http://fletcherpenney.net/XSLT_Files>)  and also  included with  this sample
+document. These files add additional font  information and the logotype in the
+upper left  corner. Due to the  font requirements, you must  process this file
+with XeLaTeX,  which is  part of [MacTeX](http://www.tug.org/mactex/).  To use
+this customization, you  must have the `Garamond` and  `Didot` fonts installed
+on your system.
+
+To use  the letterhead and  envelope features, simply  be sure to  include the
+appropriate   metadata  ---   `Author`,  `Address`,   `Recipient`,  `Recipient
+Address`.  You  can  also  optionally  use  `Email`,  `Web`,  `Phone`,  `Fax`,
+`Department`,  `Position`, `Signature`,  and  `Date`. To  save  time, you  can
+follow the example of  the `custom-letterhead.xslt` and `custom-envelope.xslt`
+files to store default information to be used. You can also add a custom logo,
+typesetting, and a  scanned signature, or whatever else you  like. This sample
+demonstrates  most   of  these   features  via  the   `custom-letterhead`  and
+`custom-envelope` XSLT stylesheets.
+
+In order  to demonstrate some  of the  capabilities for letters  produced with
+this system, I have included a familiar table:
+
+[MultiMarkdown vs. Crayons][MultiMarkdown vs. Crayons]
+Features                            | MultiMarkdown |  Crayons |
+----------------------------------- | :-----------: | :------: |
+Melts in warm places                |       No      |    Yes   |
+Mistakes can be easily fixed        |      Yes      |    No    |
+Easy to copy documents for friends  |      Yes      |    No    |
+Fun at parties                      |       No      | Why not? |
+
+Minimum markup for maximum quality? |      Yes      |    No    |
+
+
+In order to ensure  that we go on to page 2, I  have included some filler text
+so   that   you   can   see    what   the   "non-cover"   pages   look   like.
+
+Lorem ipsum dolor  sit amet, consectetuer adipiscing  elit. Vestibulum laoreet
+consequat turpis. Praesent  dolor ligula, venenatis vitae,  posuere ut, luctus
+ac, urna. Fusce sed enim. Duis  ipsum enim, placerat et, tincidunt et, aliquet
+vel, nulla.  Donec pellentesque dolor  a augue  iaculis aliquam. In  a turpis.
+Mauris et  turpis. Morbi pharetra  arcu vel tortor. Vestibulum  lobortis. Cras
+tempus, est  a dictum ultricies, augue  pede iaculis lorem, ac  sagittis dolor
+massa in  risus. Sed pulvinar faucibus  velit. Donec suscipit leo.  Donec eget
+nunc. Class aptent taciti sociosqu ad  litora torquent per conubia nostra, per
+inceptos  hymenaeos.  Vivamus  egestas.  Aenean risus  lectus,  dapibus  eget,
+feugiat vel,  dapibus eu,  lorem. Fusce  sem metus,  porta nec,  imperdiet sit
+amet, fermentum  ac, ligula. Duis  facilisis, orci non  ullamcorper imperdiet,
+nisl tortor aliquet tellus, eget vehicula magna massa sit amet neque.
+
+
+Mauris  non metus.  Praesent  pretium.  Ut pellentesque  lorem  sit amet  est.
+Phasellus sit amet orci pellentesque quam suscipit tempus. Maecenas ac tortor.
+Nulla rhoncus vehicula  dui. Fusce dictum, orci eu iaculis  tempus, nisi justo
+tempus pede, non  mattis mi eros ac ligula. Maecenas  vehicula eleifend justo.
+Donec  at libero  et orci  sollicitudin iaculis.  Nunc porta  malesuada neque.
+Vestibulum turpis. Morbi a sem. Vivamus ut urna. Duis ornare.
+
+
+And some math:
+
+<< e^(i pi) + 1 = 0 [Euler's identity]>>
+
+<< x_(1,2) = (-b+-sqrt(b^2-4ac))/(2a) [quadratic equation solution]>>
+
+You can also include formulas within a sentence, such as
+<<x^2 + y^2 = 1>>.
+
+BTW, the signature below is obviously not  mine, but is included as an example
+of what you can do with this setup.
+
+Enjoy!
