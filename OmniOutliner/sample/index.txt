@@ -1,0 +1,31 @@
+Author:Fletcher T. Penney
+Title:Sample OmniOutliner Document for MultiMarkdown
+Base Header Level:2
+
+
+# Introduction #
+
+This is a sample document demonstrating the basics of using OmniOutliner to manage MultiMarkdown documents.
+
+Basically, you use the outline features to organize the sections of your documents, and the notes to contain the body of the text for each section. This allows you to easily reorganize your documents by drag and drop.
+
+
+# Next Section #
+
+Not much to say, but wanted to demonstrate the next section
+
+Sections title "My Notes" are not exported to the final document.
+
+
+## Subsection ##
+
+Just to show what nesting does.
+
+
+# Images #
+
+Images can be stored in the OmniOutliner document and referenced by filename.  Be sure to export "with attachments" to export the images as well.
+
+Simply link to image as usual.
+
+![Nautilus_Star](Nautilus_Star.png "A computer-generated image")
