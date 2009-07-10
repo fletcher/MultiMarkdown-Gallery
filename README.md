@@ -29,3 +29,7 @@ MultiMarkdown text file and HTML version, including the embedded image.
 For more information, see
 <http://fletcherpenney.net/multimarkdown/multimarkdown_and_omnioutliner/>
 
+## Manuscript ##
+
+This is an example of a MMD documented formatted in a standardized 
+manuscript format.  Best processed using XeLaTeX.
