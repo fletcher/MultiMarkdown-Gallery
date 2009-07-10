@@ -15,3 +15,8 @@ show the output when converted to HTML/XHTML, TeX (using `mmd2LaTeX.pl`) PDF
 (using `mmd2pdf.pl`), RTF (using the `multimarkdown2RTF.pl` script), and RTFD
 (using TextEdit to convert the XHTML document to RTF with images).
 
+## Sample-Letter ##
+
+This is a demonstration of what can be done using MMD and XeLaTeX.  The same 
+source document can be used to generate the letter and the envelope PDF 
+files.
