@@ -39,12 +39,12 @@ Remember, the main goal of Markdown\MultiMarkdown is to allow you to create a
 document in plain text, with minimal distraction from markup, that can be
 transformed into a variety of high quality outputs. Or, to quote John Gruber:
 
-> The overriding design goal for Markdown’s formatting syntax is to make it as
+> The overriding design goal for Markdown's formatting syntax is to make it as
 readable as possible. The idea is that a Markdown-formatted document should be
-publishable as-is, as plain text, without looking like it’s been marked up
-with tags or formatting instructions. While Markdown’s syntax has been
+publishable as-is, as plain text, without looking like it's been marked up
+with tags or formatting instructions. While Markdown's syntax has been
 influenced by several existing text-to-HTML filters, the single biggest source
-of inspiration for Markdown’s syntax is the format of plain text
+of inspiration for Markdown's syntax is the format of plain text
 email.[][#Gruber]
 
 
@@ -55,7 +55,8 @@ email.[][#Gruber]
 
 You can download a zipfile containing multiple formats of this document:
 
-* [Sample MultiMarkdown Document](http://files.fletcherpenney.net/SampleMultiMarkdownDocument.zip)
+* [MultiMarkdown-Gallery](http://fletcher.github.com/MultiMarkdown-Gallery)
+
 
 This file includes:
 
@@ -161,9 +162,11 @@ Very nice when you want to focus on writing, not grammar.
 
 ## Image Support ##
 
-If you choose to incorporate images in your documents, this can be easily done as well. MultiMarkdown makes it easier to link to images and include various attributes.
+If you choose to incorporate images in your documents, this can be easily done
+as well. MultiMarkdown makes it easier to link to images and include various
+attributes.
 
-As an example, here is an image from my website---[Nautilus Star](#nautilusstar). If you have a local copy of the image, you can include
+As an example, here is an image from my website---[Nautilus Star](#nautilusstar).  If you have a local copy of the image, you can include
 the image in a pdf.
 
 ![Nautilus Star][]
@@ -229,7 +232,7 @@ In other words, help me make it better!
 
 You can get more information on my web site:
 
-*	<http://fletcherpenney.net/MultiMarkdown>
+*	<http://fletcherpenney.net/multimarkdown>
 
 You can also:
 
@@ -241,6 +244,3 @@ You can also:
 
 * Join the Markdown discussion list:  
 	<http://six.pairlist.net/mailman/listinfo/markdown-discuss>
-
-
-
