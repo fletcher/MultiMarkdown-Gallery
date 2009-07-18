@@ -43,7 +43,7 @@ demonstrates  most   of  these   features  via  the   `custom-letterhead`  and
 `custom-envelope` XSLT stylesheets.
 
 In order  to demonstrate some  of the  capabilities for letters  produced with
-this system, I have included a familiar table:
+this system, I have included a familiar table, [MultiMarkdown vs. Crayons][].
 
 [MultiMarkdown vs. Crayons][MultiMarkdown vs. Crayons]
 Features                            | MultiMarkdown |  Crayons |
