@@ -6,7 +6,7 @@ Address:			Every manuscript should
 Agent:				An agent's address can be  
 					included underneath if you  
 					have one.  
-XSLT File:			manuscript-novel.xslt
+LaTeX XSLT:			manuscript-novel.xslt
 Surname:			Carless
 Base Header Level:	2
 Comment:			Based on the information found at the BBC  
