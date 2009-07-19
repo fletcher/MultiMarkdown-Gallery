@@ -4,7 +4,7 @@ Author:				Fletcher T. Penney
 CSS:				http://fletcherpenney.net/document.css  
 Base Header Level:	2  
 LaTeX XSLT:			article.xslt  
-Copyright:			2006-2007 Fletcher T. Penney.  
+Copyright:			2006-2009 Fletcher T. Penney.  
 					This work is licensed under a Creative Commons License.  
 					http://creativecommons.org/licenses/by-sa/3.0/  
 Keywords:			MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,   
