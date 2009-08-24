@@ -1,0 +1,212 @@
+Title:			What is MultiMarkdown?  
+Subtitle:		And why should you care? 
+Author:			Fletcher T. Penney  
+Affiliation:	http://fletcherpenney.net/multimarkdown/
+Copyright:		2009 Fletcher T. Penney.  
+				This work is licensed under a Creative Commons License.  
+				http://creativecommons.org/licenses/by-sa/2.5/
+LaTeX XSLT:		beamer
+Theme:			keynote-gradient
+
+
+#### MultiMarkdown is a derivative of Markdown ####
+
+[Markdown](http://daringfireball.net/projects/markdown/) is a program and a syntax by John Gruber that allows you to easily convert plain text into HTML suitable for using on a web page.
+
+#### The old way was complicated ####
+
+	<p>In order to create valid 
+	<a href="http://en.wikipedia.org/wiki/HTML">HTML</a>, you 
+	need properly coded syntax that can be cumbersome for 
+	&#8220;non-programmers&#8221; to write. Sometimes, you
+	just want to easily make certain words <strong>bold
+	</strong>, and certain words <em>italicized</em> without
+	having to remember the syntax. Additionally, for example,
+	creating lists:</p>
+
+	<ul>
+	<li>should be easy</li>
+	<li>should not involve programming</li>
+	</ul>
+
+
+#### The new way is easier ####
+
+	In order to create valid [HTML][], you need properly
+	coded syntax that can be cumbersome for 
+	"non-programmers" to write. Sometimes, you just want
+	to easily make certain words **bold**, and certain 
+	words *italicized* without having to remember the 
+	syntax. Additionally, for example, creating lists:
+
+	* should be easy
+	* should not involve programming
+	
+	[HTML]: http://en.wikipedia.org/wiki/HTML
+
+#### Markdown is designed for people ####
+
+The overriding design goal for Markdown’s formatting syntax is to make it as
+readable as possible. The idea is that a Markdown-formatted document should be
+publishable as-is, as plain text, without looking like it’s been marked up
+with tags or formatting instructions. While Markdown’s syntax has been
+influenced by several existing text-to-HTML filters, the single biggest source
+of inspiration for Markdown’s syntax is the format of plain text email. [][#Gruber]
+
+
+[#Gruber]: John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. Available from <http://daringfireball.net/projects/markdown/>.
+
+#### But Markdown wasn't complete ####
+
+I, and others, loved the spirit and elegance of Markdown, but felt it was
+still missing a few features that each of us considered were essential.
+Several variations on Markdown arose to meet the needs of these other
+programmers.
+
+
+#### MultiMarkdown adds several new features ####
+
+* footnotes
+* tables
+* citations and bibliography
+* image attributes
+* metadata
+* internal cross-references
+* ASCIIMathML support
+* glossary entries
+* definition lists
+* and more...
+
+
+#### MMD also adds something else... ####
+
+* Outside of the actual syntax, MMD supports the use of
+  [XSLT](http://en.wikipedia.org/wiki/XSL_Transformations) to convert the
+  XHTML output into something else, e.g.
+  [LaTeX](http://en.wikipedia.org/wiki/LaTeX).
+
+* This allows you to use the same markup language (MultiMarkdown) to create a
+  high quality pdf (article, book, or presentation like this one) without any
+  additional programming.
+
+* Most importantly, you don't have to know how this works, or even what it
+  means!
+
+#### So, one text file becomes multiple final documents ####
+
+
+![MMD Tree](MMDTree.pdf)
+
+
+#### The goal is to separate content from formatting ####
+
+By focusing on the text content of your document, you can focus on the
+creative, the scientific, the *human*. Let your computer do what it is good at
+--- the fairly boring job of making sure that margins are correct, that
+paragraphs are properly separated, your footnotes are in order, and that your
+tables line up --- regardless of the final format you want your document to
+take.
+
+#### ASCIIMathML --- it's like Markdown for mathematics
+
+Built into MultiMarkdown is support for
+[ASCIIMathML](http://asciimathml.sourceforge.net/) --- a tool that allows you
+to write mathematical equations in plain text, yet produce high quality
+output. It can be used for web pages (if your browser supports MathML), or for
+LaTeX.
+
+	<< e^(i pi) + 1 = 0 >>
+
+becomes
+
+<< e^(i pi) + 1 = 0 >>
+
+
+#### Images are just as easy ####
+
+
+	![Nautilus Star](Nautilus_Star.png)
+
+becomes...
+
+#### Images are just as easy ####
+
+
+![Nautilus Star](Nautilus_Star.png)
+
+
+#### Support for a bibliography is also included ####
+
+* MultiMarkdown has support for [BibTeX](http://www.bibtex.org/ "BibTeX"), or
+  for just including your own citations, so that you can back up your
+  arguments.[p. 42][#fake]
+
+* The citation above links to the corresponding entry in the bibliography.
+
+[#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.
+
+
+
+#### Installation is easy ####
+
+* Download the MultiMarkdown software.
+
+* If you want to use LaTeX, install a version appropriate for your operating
+  system.
+
+* If you're running Windows you will need to install Perl. If you want to use
+  LaTeX or the more advanced XHTML XSLT files, you need to install xsltproc.
+  These are included in Mac OS X, and default installs of most Linux
+  distributions.
+
+More complete instructions are available at the [MultiMarkdown site](http://fletcherpenney.net/mmd/users_guide/quickstart_guide_to_multimarkd/).
+
+#### How do I create a MultiMarkdown document? ####
+
+* A MultiMarkdown is simply a text document that is written in the
+  MultiMarkdown syntax. You can use any text editor or application you like.
+  If your editor supports fonts, italics, etc. then be sure to save as a plain
+  text file (not a .doc, RTF, or other "rich" format).
+
+* Some applications include built-in support for MultiMarkdown in various
+  ways. There's a [bundle][] for [TextMate][], and [Scrivener][] includes
+  MultiMarkdown support.
+
+[bundle]: http://fletcher.github.com/markdown.tmbundle/
+[TextMate]: http://macromates.com/
+[Scrivener]: http://www.literatureandlatte.com/scrivener.html
+
+
+#### Why should I mess with this LaTeX stuff? ####
+
+MultiMarkdown's support for LaTeX is designed to automatically do the "right"
+thing in most situations for most people. But if you want to dig in and learn
+more, you can customize MMD to create highly tailored documents that suit
+your specific needs. If you want high quality typography, LaTeX is the way to
+go.
+
+If you already know what LaTeX is, then MultiMarkdown allows you to create
+documents without learning all of the complicate LaTeX commands and markup.
+
+#### How do I create a fancy PDF? ####
+
+If you're using LaTeX, and have the proper software installed it's easy:
+
+1. Type `mmd2pdf filename.txt`
+
+2. There is no step 2
+
+
+#### Where to learn more ####
+
+* <http://fletcherpenney.net/multimarkdown/>
+* <http://groups.google.com/group/multimarkdown/>
+* <http://fletcher.github.com/MultiMarkdown-Gallery/>
+
+
+#### By the way... ####
+
+This presentation was, of course, written in MultiMarkdown and processed by
+typing `mmd2pdf what_is_mmd.txt`.
+
+It uses the `beamer` XSLT file, and the `keynote-gradient` beamer theme.
