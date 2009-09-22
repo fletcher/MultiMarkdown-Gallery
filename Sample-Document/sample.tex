@@ -61,13 +61,12 @@
 \VerbatimFootnotes
 \def\myauthor{Fletcher T. Penney}
 \def\baseheaderlevel{2}
-\def\mycopyright{2006-2007 Fletcher T. Penney. \\ This work is licensed under a Creative Commons License. \\ http://creativecommons.org/licenses/by-sa/3.0/}
+\def\mycopyright{2006-2009 Fletcher T. Penney. \\ This work is licensed under a Creative Commons License. \\ http://creativecommons.org/licenses/by-sa/3.0/}
 \def\format{complete}
 \def\mykeywords{MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,}
 \def\latexxslt{article.xslt}
+\def\rtfxslt{xhtml2rtf}
 \def\mytitle{Sample MultiMarkdown Document}
-\usepackage{xmpincl}
-\includexmp{CCAttributionShareAlike}
 
 
 %
@@ -163,7 +162,7 @@
 
 As I add increasing numbers of features to MultiMarkdown, I decided it was
 time to create a sample document to show them off. Many of the features are
-demonstrated in the \href{http://fletcher.freeshell.org/wiki/MultiMarkdown}{MultiMarkdown Readme}\footnote{\href{http://fletcher.freeshell.org/wiki/MultiMarkdown}{http://fletcher.freeshell.org/wiki/MultiMarkdown}}, but some are not.
+demonstrated in the \href{http://fletcherpenney.net/mmd/users_guide/}{MultiMarkdown User's Guide}\footnote{\href{http://fletcherpenney.net/mmd/users_guide/}{http://fletcherpenney.net/mmd/users\_guide/}}, but some are not.
 
 
 Additionally, it's easy for those features to get lost within all of the
@@ -293,7 +292,7 @@ what tools you use to process the XHTML output.
 
 Even within the XHTML document, however, you can make use of this structure to
 allow easy navigation within the document. You can link directly to the
-Introduction (\autoref{introduction}), for instance. And if you are creating a PDF, it will contain
+Introduction (\autoref{introduction}) (and to \autoref{introduction} when using LaTeX), for instance. And if you are creating a PDF, it will contain
 a hierarchy of section names that you can use to allow easy navigation, if
 your PDF reader supports this function.
 
@@ -359,11 +358,11 @@ the image in a pdf.
 
 
 \begin{figure}
-\caption{Nautilus Star}
-\label{nautilusstar}
 \begin{center}
 \resizebox{307pt}{250pt}{\includegraphics{Nautilus_Star.png}}
 \end{center}
+\caption{Nautilus Star}
+	\label{nautilusstar}
 \end{figure}
 
 
@@ -454,7 +453,7 @@ You can also:
 \begin{itemize}
 
 
-\item Email me: \\\href{mailto:fletcher@fletcherpenney.net}{fletcher@fletcherpenney.net}
+\item Email me: \\\href{mailto:owner@fletcherpenney.net}{owner@fletcherpenney.net}
 
 
 
