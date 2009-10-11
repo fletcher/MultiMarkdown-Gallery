@@ -7,7 +7,7 @@ This project is really just a collection of sample MultiMarkdown documents
 demonstrating various features.
 
 
-## Beamer ##
+## Beamer-Presentation ##
 
 by Fletcher T. Penney
 
