@@ -24,6 +24,14 @@ the final pdf.
 rather than LaTeX.
 
 
+## Beamer ##
+
+by Fletcher T. Penney
+
+This is an example of using MultiMarkdown to create a PDF slideshow via
+[beamer](http://latex-beamer.sourceforge.net/).
+
+
 ## OmniOutliner ##
 
 by Fletcher T. Penney
@@ -55,4 +63,12 @@ version 2.0.b4. The base version can be used with LaTeX, but if you want to
 add custom font features using my customized version, you need to use XeLaTeX
 (Mac OS X only, for the most part). LaTeX gurus can get font changes on
 regular LaTeX installs, but this was easier for me.
+
+
+## What Is MultiMarkdown? ##
+
+by Fletcher T. Penney
+
+Another slideshow created via beamer, but this one is also a beginner's intro
+to what MultiMarkdown is.
 
