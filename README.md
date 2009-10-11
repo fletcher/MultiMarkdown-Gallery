@@ -6,6 +6,15 @@ Author:	   Fletcher T. Penney
 This project is really just a collection of sample MultiMarkdown documents
 demonstrating various features.
 
+
+## Beamer ##
+
+by Fletcher T. Penney
+
+This is an example of using MultiMarkdown to create a PDF slideshow via
+[beamer](http://latex-beamer.sourceforge.net/).
+
+
 ## Manuscript Example ##
 
 by Fletcher T. Penney
@@ -22,14 +31,6 @@ the final pdf.
 
 **PS**: The TeX file produced by this process is better typeset using XeLaTeX,
 rather than LaTeX.
-
-
-## Beamer ##
-
-by Fletcher T. Penney
-
-This is an example of using MultiMarkdown to create a PDF slideshow via
-[beamer](http://latex-beamer.sourceforge.net/).
 
 
 ## OmniOutliner ##
