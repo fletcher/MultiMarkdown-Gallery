@@ -90,7 +90,7 @@ programmers.
   additional programming.
 
 * Most importantly, you don't have to know how this works, or even what it
-  means!
+  the LaTeX commands mean --- just have the software installed.
 
 #### So, one text file becomes multiple final documents ####
 
