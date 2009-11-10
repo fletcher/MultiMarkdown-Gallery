@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx7300\tx7860\tx8420\tx9000\tx9560\sl288\slmult1\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 First, take a look at the overall structure of the document. At the very\
+beginning is metadata, including a title, author, keywords, copyright\
+information, etc. Where possible, this metadata is put to appropriate use,\
+otherwise it is stored in a format designed to be easily read and minimally\
+distracting:\
+\
+* In plain text and XHTML snippets[^snippets], it is located at the top of the\
+  document.\
+\
+* In a full XHTML document, is located in the `<head>` section, and the title\
+  and CSS metadata, if present, are used appropriately.\
+\
+* In a PDF generated from my XSLT files, metadata is used to generate the\
+  appropriate fields (title, author, keywords) in the PDF itself. Some PDF\
+  readers will let you examine this data. Additionally, the title, subtitle,\
+  author, and copyright are placed at the beginning of the document.\
+\
+* In a Scrivener document, you can put the metadata in the first File in the\
+  Binder, but the preferred location is in the "MultiMarkdown Settings..."\
+  pane (in the File Menu.)\
+\
+There are a lot of standard metadata keys that can be used, or you can create\
+your own and use them as you see fit. Definitely a powerful feature.\
+\
+[^snippets]: An XHTML snippet is my terminology for XHTML code that does not\
+include the `<html>`, `<head>`, and `<body>` tags. Most browsers will display\
+it properly, but it is not a complete XHTML document. Without a `<head>`\
+section there is nowhere to put metadata(e.g. there is no `<title>`).}

@@ -1,0 +1,1 @@
+MultiMarkdown offers several mechanisms for managing bibliographies. It has built-in support for basic citation and bibliography management and formatting, or you can rely on external tools to handle this for you. There aren't many citations in this document, but I think it gets the point across.[p. 42][#fake]   [#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.

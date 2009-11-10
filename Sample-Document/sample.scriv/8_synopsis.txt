@@ -1,0 +1,1 @@
+You can download a zipfile containing multiple formats of this document:  * [MultiMarkdown-Gallery](http://fletcher.github.com/MultiMarkdown-Gallery)   This file includes:  * The Scrivener source file * A plain text file in MultiMarkdown format * An XHTML file * A PDF * An RTF  All files were generated automatically from the MultiMarkdown source document.
