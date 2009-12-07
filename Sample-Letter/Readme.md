@@ -32,4 +32,4 @@ generate the envelope. I suppose if you did this a lot, you might even create
 a macro to process both stylesheets for you automatically.
 
 
-[Digitize]: http://fletcherpenney.net/Digitize_Your_Signature
+[Digitize]: http://fletcherpenney.net/2009/10/digitize_your_signature
