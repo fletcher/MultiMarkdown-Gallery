@@ -36,7 +36,8 @@ your own and use them as you see fit. Definitely a powerful feature.
 [^snippets]: An XHTML snippet is my terminology for XHTML code that does not
 include the `&lt;html&gt;`, `&lt;head&gt;`, and `&lt;body&gt;` tags. Most browsers will display
 it properly, but it is not a complete XHTML document. Without a `&lt;head&gt;`
-section there is nowhere to put metadata(e.g. there is no `&lt;title&gt;`).</string>
+section there is nowhere to put metadata(e.g. there is no `&lt;title&gt;`).
+</string>
 		<key>Title</key>
 		<string>Metadata</string>
 	</dict>
@@ -57,7 +58,8 @@ Even within the XHTML document, however, you can make use of this structure to
 allow easy navigation within the document. You can link directly to the
 [Introduction][] (and to [][Introduction] when using LaTeX), for instance. And if you are creating a PDF, it will contain
 a hierarchy of section names that you can use to allow easy navigation, if
-your PDF reader supports this function.</string>
+your PDF reader supports this function.
+</string>
 		<key>Title</key>
 		<string>Structure</string>
 	</dict>
@@ -98,7 +100,9 @@ Minimum markup for maximum quality? |      Yes      |    No    |
 
 
 
-[^parties]: I guess it depends on what kind of parties you go to...</string>
+[^parties]: I guess it depends on what kind of parties you go to...
+
+</string>
 		<key>Title</key>
 		<string>Tables</string>
 	</dict>
@@ -107,7 +111,7 @@ Minimum markup for maximum quality? |      Yes      |    No    |
 		<key>Notes</key>
 		<string></string>
 		<key>Synopsis</key>
-		<string>By incorporating John Gruber's [SmartyPants][] program into your workflow, you can generate more "correct" typographic punction in your XHTML pages, and in your LaTeX source if you are generating PDF's---this includes en and em dashes, and ellipses....  Very nice when you want to focus on writing, not grammar.   [SmartyPants]: http://daringfireball.net/projects/smartypants/</string>
+		<string>By incorporating John Gruber's [SmartyPants][] program into your workflow, you can generate more "correct" typographic punction in your XHTML pages, and in your LaTeX source if you are generating PDF's---this includes en and em dashes, and ellipses....  Very nice when you want to focus on writing, not grammar.   [SmartyPants]: http://daringfireball.net/projects/smartypants/ </string>
 		<key>Text</key>
 		<string>By incorporating John Gruber's [SmartyPants][] program into your workflow, you
 can generate more "correct" typographic punction in your XHTML pages, and in
@@ -117,7 +121,8 @@ dashes, and ellipses....
 Very nice when you want to focus on writing, not grammar.
 
 
-[SmartyPants]: http://daringfireball.net/projects/smartypants/</string>
+[SmartyPants]: http://daringfireball.net/projects/smartypants/
+</string>
 		<key>Title</key>
 		<string>Typographical conventions</string>
 	</dict>
@@ -126,7 +131,7 @@ Very nice when you want to focus on writing, not grammar.
 		<key>Notes</key>
 		<string></string>
 		<key>Synopsis</key>
-		<string>If you choose to incorporate images in your documents, this can be easily done as well. MultiMarkdown makes it easier to link to images and include various attributes.  As an example, here is an image from my website---[Nautilus Star](#nautilusstar).  If you have a local copy of the image, you can include the image in a pdf.  ![Nautilus Star][]  [Nautilus Star]: Nautilus_Star.png "Nautilus Star" width=307px height=250px</string>
+		<string>If you choose to incorporate images in your documents, this can be easily done as well. MultiMarkdown makes it easier to link to images and include various attributes.  As an example, here is an image from my website---[Nautilus Star](#nautilusstar).  If you have a local copy of the image, you can include the image in a pdf.  ![Nautilus Star][]  [Nautilus Star]: Nautilus_Star.png "Nautilus Star" width=307px height=250px </string>
 		<key>Text</key>
 		<string>If you choose to incorporate images in your documents, this can be easily done
 as well. MultiMarkdown makes it easier to link to images and include various
@@ -137,7 +142,8 @@ the image in a pdf.
 
 ![Nautilus Star][]
 
-[Nautilus Star]: Nautilus_Star.png "Nautilus Star" width=307px height=250px</string>
+[Nautilus Star]: Nautilus_Star "Nautilus Star" width=307px height=250px
+</string>
 		<key>Title</key>
 		<string>Image Support</string>
 	</dict>
@@ -146,7 +152,7 @@ the image in a pdf.
 		<key>Notes</key>
 		<string></string>
 		<key>Synopsis</key>
-		<string>MultiMarkdown offers several mechanisms for managing bibliographies. It has built-in support for basic citation and bibliography management and formatting, or you can rely on external tools to handle this for you. There aren't many citations in this document, but I think it gets the point across.[p. 42][#fake]   [#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.</string>
+		<string>MultiMarkdown offers several mechanisms for managing bibliographies. It has built-in support for basic citation and bibliography management and formatting, or you can rely on external tools to handle this for you. There aren't many citations in this document, but I think it gets the point across.[p. 42][#fake]   [#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006. </string>
 		<key>Text</key>
 		<string>MultiMarkdown offers several mechanisms for managing bibliographies. It has
 built-in support for basic citation and bibliography management and
@@ -155,7 +161,8 @@ aren't many citations in this document, but I think it gets the point
 across.[p. 42][#fake]
 
 
-[#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.</string>
+[#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.
+</string>
 		<key>Title</key>
 		<string>Bibliography Support</string>
 	</dict>
@@ -187,7 +194,8 @@ symbols, we put in the optional sort key `ampersand` to control sorting.
 	A section at the end ...
 
 [^amp]: glossary: &amp; (ampersand)
-	A punctuation mark ...</string>
+	A punctuation mark ...
+</string>
 		<key>Title</key>
 		<string>Glossary Support</string>
 	</dict>
@@ -234,7 +242,8 @@ You can also:
 	&lt;http://groups.google.com/group/multimarkdown&gt;
 
 * Join the Markdown discussion list:  
-	&lt;http://six.pairlist.net/mailman/listinfo/markdown-discuss&gt;</string>
+	&lt;http://six.pairlist.net/mailman/listinfo/markdown-discuss&gt;
+</string>
 		<key>Title</key>
 		<string>Now What?</string>
 	</dict>
@@ -243,7 +252,7 @@ You can also:
 		<key>Notes</key>
 		<string></string>
 		<key>Synopsis</key>
-		<string>Title:    Sample MultiMarkdown Document   XHTML Header:   Author:    Fletcher T. Penney   CSS:    http://fletcherpenney.net/document.css   Base Header Level: 2   Copyright:   2006-2009 Fletcher T. Penney.        This work is licensed under a Creative Commons License.        http://creativecommons.org/licenses/by-sa/3.0/   Keywords:   MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,    Format:    complete   LaTeX XSLT:   article.xslt   RTF XSLT:   xhtml2rtf</string>
+		<string>Title:    Sample MultiMarkdown Document   XHTML Header:   Author:    Fletcher T. Penney   CSS:    http://fletcherpenney.net/css/document.css   Base Header Level: 2   Copyright:   2006-2009 Fletcher T. Penney.        This work is licensed under a Creative Commons License.        http://creativecommons.org/licenses/by-sa/3.0/   Keywords:   MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,    Format:    complete   LaTeX XSLT:   article.xslt   RTF XSLT:   xhtml2rtf</string>
 		<key>Text</key>
 		<string>Title:				Sample MultiMarkdown Document  
 XHTML Header:		
@@ -276,7 +285,8 @@ technical documentation. This document is designed to *demonstrate*, not
 describe, most of the features of MultiMarkdown.
 
 
-[MultiMarkdown User's Guide]: http://fletcherpenney.net/mmd/users_guide/ "MultiMarkdown User's Guide"</string>
+[MultiMarkdown User's Guide]: http://fletcherpenney.net/mmd/users_guide/ "MultiMarkdown User's Guide"
+</string>
 		<key>Title</key>
 		<string>Introduction</string>
 	</dict>
@@ -308,7 +318,8 @@ of inspiration for Markdown's syntax is the format of plain text
 email.[][#Gruber]
 
 
-[#Gruber]: John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. Available from &lt;http://daringfireball.net/projects/markdown/&gt;.</string>
+[#Gruber]: John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. Available from &lt;http://daringfireball.net/projects/markdown/&gt;.
+</string>
 		<key>Title</key>
 		<string>How to Use This Document</string>
 	</dict>
@@ -317,7 +328,7 @@ email.[][#Gruber]
 		<key>Notes</key>
 		<string></string>
 		<key>Synopsis</key>
-		<string>You can download a zipfile containing multiple formats of this document:  * [MultiMarkdown-Gallery](http://fletcher.github.com/MultiMarkdown-Gallery)   This file includes:  * The Scrivener source file * A plain text file in MultiMarkdown format * An XHTML file * A PDF * An RTF  All files were generated automatically from the MultiMarkdown source document.</string>
+		<string>You can download a zipfile containing multiple formats of this document:  * [MultiMarkdown-Gallery](http://fletcher.github.com/MultiMarkdown-Gallery)   This file includes:  * The Scrivener source file * A plain text file in MultiMarkdown format * An XHTML file * A PDF * An RTF  All files were generated automatically from the MultiMarkdown source document. </string>
 		<key>Text</key>
 		<string>You can download a zipfile containing multiple formats of this document:
 
@@ -332,7 +343,8 @@ This file includes:
 *	A PDF
 *	An RTF
 
-All files were generated automatically from the MultiMarkdown source document.</string>
+All files were generated automatically from the MultiMarkdown source document.
+</string>
 		<key>Title</key>
 		<string>Where Can I Get a Copy?</string>
 	</dict>

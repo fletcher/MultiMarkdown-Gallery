@@ -4,23 +4,14 @@
 <dict>
 	<key>.lockedInPlace</key>
 	<false/>
-	<key>SCRDefaultTextZoom</key>
-	<integer>100</integer>
-	<key>SCRSelectedCompileOptionsInfoSaveName</key>
-	<dict>
-		<key>Tag</key>
-		<integer>0</integer>
-		<key>Title</key>
-		<string>Custom - Original</string>
-	</dict>
 	<key>binderSelection</key>
 	<array>
-		<integer>11</integer>
+		<integer>1</integer>
 	</array>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {179, 706}}</string>
-		<string>{{180, 0}, {627, 706}}</string>
+		<string>{{0, 0}, {130, 550}}</string>
+		<string>{{131, 0}, {615, 550}}</string>
 	</array>
 	<key>binderState</key>
 	<array>
@@ -29,36 +20,25 @@
 		<integer>1</integer>
 	</array>
 	<key>closedSuccessfully</key>
-	<false/>
-	<key>editorSplitFrames</key>
-	<array>
-		<string>{{0, 0}, {627, 335}}</string>
-		<string>{{0, 345}, {627, 335}}</string>
-	</array>
+	<true/>
 	<key>editorSplitType</key>
 	<integer>0</integer>
 	<key>inspectorIsCollapsed</key>
 	<true/>
 	<key>inspectorWidth</key>
-	<real>201</real>
-	<key>lastDocumentSplitType</key>
-	<integer>0</integer>
+	<real>200</real>
 	<key>mainDocumentEditor.binderDocuments</key>
 	<array>
-		<integer>15</integer>
+		<integer>6</integer>
 	</array>
 	<key>mainDocumentEditor.corkboardVisible</key>
 	<false/>
-	<key>mainDocumentEditor.hasFacingPages</key>
-	<false/>
 	<key>mainDocumentEditor.lockedInPlace</key>
 	<false/>
-	<key>mainDocumentEditor.multipleDocumentMode</key>
-	<integer>0</integer>
 	<key>mainDocumentEditor.navHistory</key>
 	<dict>
 		<key>CurrentIndex</key>
-		<integer>27</integer>
+		<integer>43</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
 			<dict>
@@ -69,13 +49,13 @@
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
-				<integer>4</integer>
+				<integer>0</integer>
 				<key>Mode</key>
-				<integer>2</integer>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
-				<integer>5</integer>
+				<integer>3</integer>
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
@@ -83,7 +63,7 @@
 				<key>BinderDocID</key>
 				<integer>4</integer>
 				<key>Mode</key>
-				<integer>2</integer>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
@@ -93,67 +73,7 @@
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
-				<integer>1</integer>
-				<key>Mode</key>
-				<integer>2</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>20</integer>
-				<key>Mode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>15</integer>
-				<key>Mode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>20</integer>
-				<key>Mode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>21</integer>
-				<key>Mode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>20</integer>
-				<key>Mode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>21</integer>
-				<key>Mode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>2</integer>
-				<key>Mode</key>
-				<integer>2</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>15</integer>
-				<key>Mode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>20</integer>
-				<key>Mode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocID</key>
-				<integer>15</integer>
+				<integer>19</integer>
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
@@ -165,31 +85,31 @@
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
-				<integer>20</integer>
+				<integer>4</integer>
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
-				<integer>15</integer>
+				<integer>5</integer>
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
-				<integer>20</integer>
+				<integer>6</integer>
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
-				<integer>14</integer>
+				<integer>7</integer>
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
-				<integer>15</integer>
+				<integer>8</integer>
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
@@ -219,7 +139,13 @@
 			</dict>
 			<dict>
 				<key>BinderDocID</key>
-				<integer>18</integer>
+				<integer>13</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>14</integer>
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
@@ -229,44 +155,173 @@
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
-		</array>
-	</dict>
-	<key>mainDocumentEditor.outlinerVisible</key>
-	<false/>
-	<key>mainDocumentEditor.textMode</key>
-	<integer>0</integer>
-	<key>mainDocumentEditor.textScale</key>
-	<integer>100</integer>
-	<key>mainDocumentEditor.wrapsToPage</key>
-	<false/>
-	<key>mainDocumentView</key>
-	<string>mainDocumentEditor</string>
-	<key>mainWindowFrame</key>
-	<string>148 50 807 728 0 0 1280 778 </string>
-	<key>supportingDocumentEditor.binderDocuments</key>
-	<array/>
-	<key>supportingDocumentEditor.hasFacingPages</key>
-	<false/>
-	<key>supportingDocumentEditor.lockedInPlace</key>
-	<false/>
-	<key>supportingDocumentEditor.navHistory</key>
-	<dict>
-		<key>CurrentIndex</key>
-		<integer>0</integer>
-		<key>NavigationHistoryArray</key>
-		<array>
 			<dict>
 				<key>BinderDocID</key>
 				<integer>20</integer>
 				<key>Mode</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>15</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>16</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>17</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>18</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>19</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>1</integer>
+				<key>Mode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>20</integer>
+				<key>Mode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>1</integer>
+				<key>Mode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>20</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>1</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>19</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>18</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>17</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>16</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>15</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>6</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>20</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>1</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>0</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>5</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>6</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>7</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>5</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocID</key>
+				<integer>6</integer>
+				<key>Mode</key>
+				<integer>0</integer>
+			</dict>
 		</array>
+	</dict>
+	<key>mainDocumentEditor.outlinerVisible</key>
+	<false/>
+	<key>mainDocumentEditor.textMode</key>
+	<integer>0</integer>
+	<key>mainWindowFrame</key>
+	<string>529 200 746 572 0 0 1280 778 </string>
+	<key>supportingDocumentEditor.navHistory</key>
+	<dict>
+		<key>CurrentIndex</key>
+		<integer>-1</integer>
+		<key>NavigationHistoryArray</key>
+		<array/>
 	</dict>
 	<key>supportingDocumentEditor.textMode</key>
 	<integer>0</integer>
-	<key>supportingDocumentEditor.wrapsToPage</key>
-	<false/>
 	<key>supportingDocumentViewIsCurrent</key>
 	<false/>
 </dict>
