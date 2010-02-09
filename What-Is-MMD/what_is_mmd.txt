@@ -186,7 +186,7 @@ your specific needs. If you want high quality typography, LaTeX is the way to
 go.
 
 If you already know what LaTeX is, then MultiMarkdown allows you to create
-documents without learning all of the complicate LaTeX commands and markup.
+documents without learning all of the complicated LaTeX commands and markup.
 
 #### How do I create a fancy PDF? ####
 
