@@ -1,27 +1,28 @@
 Title:				Sample MultiMarkdown Document  
 XHTML Header:		
 Author:				Fletcher T. Penney  
-CSS:				http://fletcherpenney.net/document.css  
+CSS:				http://fletcherpenney.net/css/document.css  
 Base Header Level:	2  
-LaTeX XSLT:			article.xslt  
 Copyright:			2006-2009 Fletcher T. Penney.  
 					This work is licensed under a Creative Commons License.  
 					http://creativecommons.org/licenses/by-sa/3.0/  
 Keywords:			MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,   
 Format:				complete  
+LaTeX XSLT:			article.xslt  
+RTF XSLT:			xhtml2rtf
 
 # Introduction #
 
 As I add increasing numbers of features to MultiMarkdown, I decided it was
 time to create a sample document to show them off. Many of the features are
-demonstrated in the [MultiMarkdown Readme][], but some are not.
+demonstrated in the [MultiMarkdown User's Guide][], but some are not.
 
 Additionally, it's easy for those features to get lost within all of the
 technical documentation. This document is designed to *demonstrate*, not
 describe, most of the features of MultiMarkdown.
 
 
-[MultiMarkdown Readme]: http://fletcher.freeshell.org/wiki/MultiMarkdown "MultiMarkdown Readme"
+[MultiMarkdown User's Guide]: http://fletcherpenney.net/mmd/users_guide/ "MultiMarkdown User's Guide"
 
 
 # How to Use This Document #
@@ -112,7 +113,7 @@ what tools you use to process the XHTML output.
 
 Even within the XHTML document, however, you can make use of this structure to
 allow easy navigation within the document. You can link directly to the
-[Introduction][], for instance. And if you are creating a PDF, it will contain
+[Introduction][] (and to [][Introduction] when using LaTeX), for instance. And if you are creating a PDF, it will contain
 a hierarchy of section names that you can use to allow easy navigation, if
 your PDF reader supports this function.
 
@@ -236,7 +237,7 @@ You can get more information on my web site:
 You can also:
 
 * Email me:  
-	<mailto:fletcher@fletcherpenney.net>
+	<mailto:owner@fletcherpenney.net>
 
 * Join the MultiMarkdown discussion list:  
 	<http://groups.google.com/group/multimarkdown>
