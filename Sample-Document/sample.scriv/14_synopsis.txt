@@ -1,1 +1,0 @@
-By incorporating John Gruber's [SmartyPants][] program into your workflow, you can generate more "correct" typographic punction in your XHTML pages, and in your LaTeX source if you are generating PDF's---this includes en and em dashes, and ellipses....  Very nice when you want to focus on writing, not grammar.   [SmartyPants]: http://daringfireball.net/projects/smartypants/

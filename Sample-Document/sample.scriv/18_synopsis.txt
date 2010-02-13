@@ -1,1 +1,0 @@
-It's pretty easy to include mathematical equations:  << e^(i pi) + 1 = 0 [Euler's identity]>>  << x_(1,2) = (-b+-sqrt(b^2-4ac))/(2a) [quadratic equation solution]>>  You can also include formulas within a sentence, such as <<x^2 + y^2 = 1>>.

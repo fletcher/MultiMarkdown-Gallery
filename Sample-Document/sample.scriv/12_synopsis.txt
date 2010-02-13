@@ -1,1 +1,0 @@
-Footnotes are very easy to implement in MultiMarkdown, as described in the MultiMarkdown Syntax Guide.[^somesamplefootnote]  [^somesamplefootnote]: Here is the text of the footnote itself.
