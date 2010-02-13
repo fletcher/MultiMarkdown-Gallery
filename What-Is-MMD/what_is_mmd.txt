@@ -6,12 +6,14 @@ Copyright:		2009 Fletcher T. Penney.
 				This work is licensed under a Creative Commons License.  
 				http://creativecommons.org/licenses/by-sa/2.5/
 LaTeX XSLT:		beamer
-Theme:			keynote-gradient
+Theme:			keynote-vintage
 
 
 #### MultiMarkdown is a derivative of Markdown ####
 
-[Markdown](http://daringfireball.net/projects/markdown/) is a program and a syntax by John Gruber that allows you to easily convert plain text into HTML suitable for using on a web page.
+[Markdown](http://daringfireball.net/projects/markdown/)  is a  program and  a
+syntax by John Gruber  that allows you to easily convert  plain text into HTML
+suitable for using on a web page.
 
 #### The old way was complicated ####
 
@@ -46,21 +48,22 @@ Theme:			keynote-gradient
 
 #### Markdown is designed for people ####
 
-The overriding design goal for Markdown’s formatting syntax is to make it as
+The overriding design  goal for Markdown’s formatting syntax is  to make it as
 readable as possible. The idea is that a Markdown-formatted document should be
-publishable as-is, as plain text, without looking like it’s been marked up
-with tags or formatting instructions. While Markdown’s syntax has been
+publishable as-is,  as plain text,  without looking  like it’s been  marked up
+with  tags  or  formatting  instructions. While  Markdown’s  syntax  has  been
 influenced by several existing text-to-HTML filters, the single biggest source
-of inspiration for Markdown’s syntax is the format of plain text email. [][#Gruber]
+of  inspiration for  Markdown’s  syntax is  the format  of  plain text  email.
+[][#Gruber]
 
 
 [#Gruber]: John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. Available from <http://daringfireball.net/projects/markdown/>.
 
 #### But Markdown wasn't complete ####
 
-I, and others, loved the spirit and elegance of Markdown, but felt it was
-still missing a few features that each of us considered were essential.
-Several variations on Markdown arose to meet the needs of these other
+I, and  others, loved  the spirit and  elegance of Markdown,  but felt  it was
+still  missing a  few  features that  each of  us  considered were  essential.
+Several  variations  on Markdown  arose  to  meet  the  needs of  these  other
 programmers.
 
 
@@ -100,18 +103,18 @@ programmers.
 
 #### The goal is to separate content from formatting ####
 
-By focusing on the text content of your document, you can focus on the
+By  focusing on  the text  content  of your  document,  you can  focus on  the
 creative, the scientific, the *human*. Let your computer do what it is good at
---- the fairly boring job of making sure that margins are correct, that
-paragraphs are properly separated, your footnotes are in order, and that your
-tables line up --- regardless of the final format you want your document to
+---  the fairly  boring job  of  making sure  that margins  are correct,  that
+paragraphs are properly separated, your footnotes  are in order, and that your
+tables line up  --- regardless of the  final format you want  your document to
 take.
 
 #### ASCIIMathML --- it's like Markdown for mathematics
 
-Built into MultiMarkdown is support for
-[ASCIIMathML](http://asciimathml.sourceforge.net/) --- a tool that allows you
-to write mathematical equations in plain text, yet produce high quality
+Built         into         MultiMarkdown        is         support         for
+[ASCIIMathML](http://asciimathml.sourceforge.net/) --- a  tool that allows you
+to  write mathematical  equations  in  plain text,  yet  produce high  quality
 output. It can be used for web pages (if your browser supports MathML), or for
 LaTeX.
 
@@ -179,13 +182,12 @@ More complete instructions are available at the [MultiMarkdown site](http://flet
 
 #### Why should I mess with this LaTeX stuff? ####
 
-MultiMarkdown's support for LaTeX is designed to automatically do the "right"
-thing in most situations for most people. But if you want to dig in and learn
-more, you can customize MMD to create highly tailored documents that suit
-your specific needs. If you want high quality typography, LaTeX is the way to
-go.
+MultiMarkdown's support for LaTeX is  designed to automatically do the "right"
+thing in most situations for most people. But  if you want to dig in and learn
+more, you can customize MMD to create highly tailored documents that suit your
+specific needs. If you  want high quality typography, LaTeX is  the way to go.
 
-If you already know what LaTeX is, then MultiMarkdown allows you to create
+If you  already know what  LaTeX is, then  MultiMarkdown allows you  to create
 documents without learning all of the complicated LaTeX commands and markup.
 
 #### How do I create a fancy PDF? ####
@@ -206,7 +208,7 @@ If you're using LaTeX, and have the proper software installed it's easy:
 
 #### By the way... ####
 
-This presentation was, of course, written in MultiMarkdown and processed by
+This presentation  was, of course,  written in MultiMarkdown and  processed by
 typing `mmd2pdf what_is_mmd.txt`.
 
 It uses the `beamer` XSLT file, and the `keynote-gradient` beamer theme.
