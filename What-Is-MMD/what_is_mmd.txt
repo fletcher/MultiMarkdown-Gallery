@@ -1,21 +1,26 @@
-Title:			What is MultiMarkdown?  
-Subtitle:		And why should you care? 
-Author:			Fletcher T. Penney  
-Affiliation:	http://fletcherpenney.net/multimarkdown/
-Copyright:		2009 Fletcher T. Penney.  
-				This work is licensed under a Creative Commons License.  
-				http://creativecommons.org/licenses/by-sa/2.5/
-LaTeX XSLT:		beamer
-Theme:			keynote-vintage
+latex input:		mmd-beamer-header
+Title:				What is MultiMarkdown?  
+Subtitle:			And why should you care? 
+Author:				Fletcher T. Penney  
+Affiliation:		http://fletcherpenney.net/multimarkdown/
+Copyright:			2009 Fletcher T. Penney.  
+					This work is licensed under a Creative Commons License.  
+					http://creativecommons.org/licenses/by-sa/2.5/
+base header level:	3  
+latex mode:			beamer  
+Biblio Style:		fletcher
+Theme:				keynote-gradient
+latex input:		mmd-beamer-begin-doc
+latex footer:		mmd-beamer-footer
 
 
-#### MultiMarkdown is a derivative of Markdown ####
+# MultiMarkdown is a derivative of Markdown #
 
 [Markdown](http://daringfireball.net/projects/markdown/)  is a  program and  a
 syntax by John Gruber  that allows you to easily convert  plain text into HTML
 suitable for using on a web page.
 
-#### The old way was complicated ####
+# The old way was complicated #
 
 	<p>In order to create valid 
 	<a href="http://en.wikipedia.org/wiki/HTML">HTML</a>, you 
@@ -32,7 +37,7 @@ suitable for using on a web page.
 	</ul>
 
 
-#### The new way is easier ####
+# The new way is easier #
 
 	In order to create valid [HTML][], you need properly
 	coded syntax that can be cumbersome for 
@@ -46,20 +51,20 @@ suitable for using on a web page.
 	
 	[HTML]: http://en.wikipedia.org/wiki/HTML
 
-#### Markdown is designed for people ####
+# Markdown is designed for people #
 
-The overriding design  goal for Markdown’s formatting syntax is  to make it as
+The overriding design  goal for Markdown's formatting syntax is  to make it as
 readable as possible. The idea is that a Markdown-formatted document should be
-publishable as-is,  as plain text,  without looking  like it’s been  marked up
-with  tags  or  formatting  instructions. While  Markdown’s  syntax  has  been
+publishable as-is,  as plain text,  without looking  like it's been  marked up
+with  tags  or  formatting  instructions. While  Markdown's  syntax  has  been
 influenced by several existing text-to-HTML filters, the single biggest source
-of  inspiration for  Markdown’s  syntax is  the format  of  plain text  email.
+of  inspiration for  Markdown's  syntax is  the format  of  plain text  email.
 [][#Gruber]
 
 
 [#Gruber]: John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. Available from <http://daringfireball.net/projects/markdown/>.
 
-#### But Markdown wasn't complete ####
+# But Markdown wasn't complete #
 
 I, and  others, loved  the spirit and  elegance of Markdown,  but felt  it was
 still  missing a  few  features that  each of  us  considered were  essential.
@@ -67,7 +72,7 @@ Several  variations  on Markdown  arose  to  meet  the  needs of  these  other
 programmers.
 
 
-#### MultiMarkdown adds several new features ####
+# MultiMarkdown adds several new features #
 
 * footnotes
 * tables
@@ -81,7 +86,7 @@ programmers.
 * and more...
 
 
-#### MMD also adds something else... ####
+# MMD also adds something else... #
 
 * Outside of the actual syntax, MMD supports the use of
   [XSLT](http://en.wikipedia.org/wiki/XSL_Transformations) to convert the
@@ -95,13 +100,13 @@ programmers.
 * Most importantly, you don't have to know how this works, or even what it
   the LaTeX commands mean --- just have the software installed.
 
-#### So, one text file becomes multiple final documents ####
+# So, one text file becomes multiple final documents #
 
 
 ![MMD Tree](MMDTree.pdf)
 
 
-#### The goal is to separate content from formatting ####
+# The goal is to separate content from formatting #
 
 By  focusing on  the text  content  of your  document,  you can  focus on  the
 creative, the scientific, the *human*. Let your computer do what it is good at
@@ -110,7 +115,7 @@ paragraphs are properly separated, your footnotes  are in order, and that your
 tables line up  --- regardless of the  final format you want  your document to
 take.
 
-#### ASCIIMathML --- it's like Markdown for mathematics
+# ASCIIMathML --- it's like Markdown for mathematics
 
 Built         into         MultiMarkdown        is         support         for
 [ASCIIMathML](http://asciimathml.sourceforge.net/) --- a  tool that allows you
@@ -118,27 +123,27 @@ to  write mathematical  equations  in  plain text,  yet  produce high  quality
 output. It can be used for web pages (if your browser supports MathML), or for
 LaTeX.
 
-	<< e^(i pi) + 1 = 0 >>
+	\\[ {e}^{i\pi }+1=0 \\]
 
 becomes
 
-<< e^(i pi) + 1 = 0 >>
+\\[ {e}^{i\pi }+1=0 \\]
 
 
-#### Images are just as easy ####
+# Images are just as easy #
 
 
 	![Nautilus Star](Nautilus_Star.png)
 
 becomes...
 
-#### Images are just as easy ####
+# Images are just as easy #
 
 
 ![Nautilus Star](Nautilus_Star.png)
 
 
-#### Support for a bibliography is also included ####
+# Support for a bibliography is also included #
 
 * MultiMarkdown has support for [BibTeX](http://www.bibtex.org/ "BibTeX"), or
   for just including your own citations, so that you can back up your
@@ -150,7 +155,7 @@ becomes...
 
 
 
-#### Installation is easy ####
+# Installation is easy #
 
 * Download the MultiMarkdown software.
 
@@ -164,7 +169,7 @@ becomes...
 
 More complete instructions are available at the [MultiMarkdown site](http://fletcherpenney.net/mmd/users_guide/quickstart_guide_to_multimarkd/).
 
-#### How do I create a MultiMarkdown document? ####
+# How do I create a MultiMarkdown document? #
 
 * A MultiMarkdown is simply a text document that is written in the
   MultiMarkdown syntax. You can use any text editor or application you like.
@@ -180,7 +185,7 @@ More complete instructions are available at the [MultiMarkdown site](http://flet
 [Scrivener]: http://www.literatureandlatte.com/scrivener.html
 
 
-#### Why should I mess with this LaTeX stuff? ####
+# Why should I mess with this LaTeX stuff? #
 
 MultiMarkdown's support for LaTeX is  designed to automatically do the "right"
 thing in most situations for most people. But  if you want to dig in and learn
@@ -190,7 +195,7 @@ specific needs. If you  want high quality typography, LaTeX is  the way to go.
 If you  already know what  LaTeX is, then  MultiMarkdown allows you  to create
 documents without learning all of the complicated LaTeX commands and markup.
 
-#### How do I create a fancy PDF? ####
+# How do I create a fancy PDF? #
 
 If you're using LaTeX, and have the proper software installed it's easy:
 
@@ -199,14 +204,14 @@ If you're using LaTeX, and have the proper software installed it's easy:
 2. There is no step 2
 
 
-#### Where to learn more ####
+# Where to learn more #
 
 * <http://fletcherpenney.net/multimarkdown/>
 * <http://groups.google.com/group/multimarkdown/>
 * <http://fletcher.github.com/MultiMarkdown-Gallery/>
 
 
-#### By the way... ####
+# By the way... #
 
 This presentation  was, of course,  written in MultiMarkdown and  processed by
 typing `mmd2pdf what_is_mmd.txt`.
