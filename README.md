@@ -6,6 +6,9 @@ Author:	   Fletcher T. Penney
 This project is really just a collection of sample MultiMarkdown documents
 demonstrating various features.
 
+The samples have been upgraded to work with MMD 3.0. If you want samples
+compatible with MMD 2.0, then you can download
+[them](https://github.com/fletcher/MultiMarkdown-Gallery/zipball/2.0).
 
 ## Beamer-Presentation ##
 
