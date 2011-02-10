@@ -1,21 +1,26 @@
+latex input:	mmd-beamer-header
 Title:			MultiMarkdown Support for Beamer  
 Subtitle:		A quick example
 Author:			Fletcher T. Penney  
 Affiliation:	http://fletcherpenney.net/
-Copyright:		2009 Fletcher T. Penney.  
+Copyright:		2009-2011 Fletcher T. Penney.  
 				This work is licensed under a Creative Commons License.  
 				http://creativecommons.org/licenses/by-sa/2.5/
+latex mode:		beamer  
 LaTeX XSLT:		beamer
 Event:			MMD Beamer Announcement  
 Date:			August 13, 2009  
 Theme:			keynote-gradient
+latex input:	mmd-beamer-begin-doc
+latex footer:	mmd-beamer-footer
 
 # MultiMarkdown and Beamer #
+
 
 ## What is it? ##
 
 
-#### What is MultiMarkdown? ####
+### What is MultiMarkdown? ###
 
 [MultiMarkdown](http://fletcherpenney.net/multimarkdown/ "MultiMarkdown") is a derivative of John Gruber's [Markdown](http://daringfireball.net/projects/markdown/ "Daring Fireball: Markdown").
 
@@ -26,63 +31,78 @@ Basically, it converts plain text into pretty documents:
 * RTF
 * and, now, PDF presentations
 
-#### What is Beamer? ####
 
-[Beamer](http://latex-beamer.sourceforge.net/ "The LaTeX Beamer Class Homepage") is a [LaTeX](http://www.latex-project.org/) class that allows you to create PDF presentations, such as this one.
+### What is Beamer? ###
+
+[Beamer](http://latex-beamer.sourceforge.net/ "The LaTeX Beamer Class
+Homepage") is a [LaTeX](http://www.latex-project.org/) class that allows you
+to create PDF presentations, such as this one.
 
 My goal is not to teach you the ins and outs of Beamer, or LaTeX for that
 matter. Rather, I want to show you the settings that you need to convert a
 MultiMarkdown document into a Beamer presentation.
 
+
 ## How do you use it? ##
 
-#### Stuff to install ####
+
+### Stuff to install ###
 
 You need a working installation of:
 
 * MultiMarkdown
 * LaTeX (including pdflatex)
-* xsltproc
 * the beamer class
 
-*If you can create a regular PDF via LaTeX from MultiMarkdown, you are probably good to go.*
+*If you can create a regular PDF via LaTeX from MultiMarkdown, you are
+probably good to go.*
 
-#### Optional Stuff ####
 
-* I like Shawn Lankton's [keynote theme](http://www.shawnlankton.com/2008/02/beamer-and-latex-with-keynote-theme/) for beamer. I made a of slight modification for my own version, which is what you see here.
+### Optional Stuff ###
 
-* It's much more attractive than the default themes, but still has room for improvement.
+* I like Shawn Lankton's [keynote theme]
+  (http://www.shawnlankton.com/2008/02/beamer-and-latex-with-keynote-theme/)
+  for beamer. I made a of slight modification for my own version, which is
+  what you see here.
 
-* You can find some additional Keynote knock-offs by [Ed Long](http://www.ucl.ac.uk/~ucbpeal/latexposter.html)
+* It's much more attractive than the default themes, but still has room for
+  improvement.
+
+* You can find some additional Keynote knock-offs by [Ed Long]
+  (http://www.ucl.ac.uk/~ucbpeal/latexposter.html)
+
 
 ### Create a MMD document ###
 
-#### Include the necessary metadata ####
+
+### Include the necessary metadata ###
 
 You can use the following metadata:
 
+	latex input:	mmd-beamer-header
 	Title:			Some title
 	Subtitle:		An optional subtitle
 	Date:			An optional date
 	Author:			Author's name
 	Affiliation:	an optional institutional affiliation
 	LaTeX xslt:		beamer
+	latex mode:		beamer  
 	event:			an optional event name
 	theme:			an optional beamer theme to use
+	latex input:	mmd-beamer-begin-doc
+	latex footer:	mmd-beamer-footer
 
-#### Just as a demo ####
+
+### Just as a demo ###
 
 ![Nautilus Star](Nautilus_Star.png)
 
-#### Another demo ####
 
-| First         | Second      | Third |
-| ------------- | ----------- | ----- |
-| a longer cell | short       | short |
-| short         | longer cell | short |
+### Another demo ###
 
-
-
-### Parse it ###
+| First         | Second      | Third |  
+| ------------- | ----------- | ----- |  
+| a longer cell | short       | short |  
+| short         | longer cell | short |  
 
 
