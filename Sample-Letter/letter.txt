@@ -1,12 +1,20 @@
-Title:				Test Letter
-Author:				Fletcher T. Penney
-recipient:			Some Person
+latex input:		mmd-letterhead-header  
+Title:				Test Letter  
+Author:				John Doe  
+email:				fletcher@example.net  
+address:			123 Main St.  
+					Some City, ST  12345  
+recipient:			Some Person  
 Recipient Address:	321 Main St  
-					New York, NY  54321
-Date:				December 15, 2007
-latex xslt:			custom-letterhead.xslt
-graphic signature:	true
-base header level:	2
+					Some City, ST  54321  
+phone:				(555) 555-5555  
+Date:				December 15, 2007  
+latex xslt:			custom-letterhead.xslt  
+latex input:		mmd-letterhead-begin-doc  
+latex mode:			memoir  
+latex footer:		mmd-letterhead-footer  
+black and white:	true  
+base header level:	2  
 
 
 To Whom It May Concern,
@@ -45,15 +53,15 @@ demonstrates  most   of  these   features  via  the   `custom-letterhead`  and
 In order  to demonstrate some  of the  capabilities for letters  produced with
 this system, I have included a familiar table, [MultiMarkdown vs. Crayons][].
 
-[MultiMarkdown vs. Crayons][MultiMarkdown vs. Crayons]
-Features                            | MultiMarkdown |  Crayons |
------------------------------------ | :-----------: | :------: |
-Melts in warm places                |       No      |    Yes   |
-Mistakes can be easily fixed        |      Yes      |    No    |
-Easy to copy documents for friends  |      Yes      |    No    |
-Fun at parties                      |       No      | Why not? |
+[MultiMarkdown vs. Crayons][MultiMarkdown vs. Crayons]  
+Features                            | MultiMarkdown |  Crayons |  
+----------------------------------- | :-----------: | :------: |  
+Melts in warm places                |       No      |    Yes   |  
+Mistakes can be easily fixed        |      Yes      |    No    |  
+Easy to copy documents for friends  |      Yes      |    No    |  
+Fun at parties                      |       No      | Why not? |  
 
-Minimum markup for maximum quality? |      Yes      |    No    |
+Minimum markup for maximum quality? |      Yes      |    No    |  
 
 
 In order to ensure  that we go on to page 2, I  have included some filler text
@@ -83,14 +91,11 @@ Vestibulum turpis. Morbi a sem. Vivamus ut urna. Duis ornare.
 
 And some math:
 
-<< e^(i pi) + 1 = 0 [Euler's identity]>>
+\\[ {e}^{i\pi }+1=0 \\]
 
-<< x_(1,2) = (-b+-sqrt(b^2-4ac))/(2a) [quadratic equation solution]>>
+\\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\]
 
 You can also include formulas within a sentence, such as
-<<x^2 + y^2 = 1>>.
-
-BTW, the signature below is obviously not  mine, but is included as an example
-of what you can do with this setup.
+\\({x}^{2}+{y}^{2}=1\\).
 
 Enjoy!
