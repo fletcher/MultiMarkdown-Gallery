@@ -1,59 +1,306 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="Content-Style-Type" content="text/css">
-<title></title>
-<meta name="Generator" content="Cocoa HTML Writer">
-<meta name="CocoaVersion" content="1038.25">
-<style type="text/css">
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Courier; background-color: #dde3eb}
-p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier}
-p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier; min-height: 14.0px}
+<title>sample</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+body <!--{background-image: url(gfx/LitLatLogoLeft.jpg); background-repeat: no-repeat;}-->
+.indexcard {
+  border: 1px solid #727272;
+  background: #fff
+  }
 </style>
 </head>
-<body>
-<p class="p1"><b>• Introduction</b></p>
-<p class="p2">As I add increasing numbers of features to MultiMarkdown, I decided it was time to create a sample document to show them off. Many of the features are demonstrated in the [MultiMarkdown User's Guide][], but some are not.<span class="Apple-converted-space">  </span>Additionally, it's easy for those features to get lost within all of the technical documentation. This document is designed to *demonstrate*, not describe, most of the features of MultiMarkdown. <span class="Apple-converted-space">  </span>[MultiMarkdown User's Guide]: http://fletcherpenney.net/mmd/users_guide/ "MultiMa...</p>
-<p class="p3"><br></p>
-<p class="p1"><b>• How to Use This Document</b></p>
-<p class="p2">I suggest comparing the raw text source with the various final outputs (e.g. PDF, XHTML, LaTeX, RTF) in order to see what can be accomplished. There will be many similarities between output formats, but also a few differences. Tables will end up in different places. Paragraphs won't break in the same way. But these differences are superficial and are a result of trying to optimize each format, without regard to identical output across formats (which would be virtually impossible).<span class="Apple-converted-space">  </span>Remember, the...</p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Where Can I Get a Copy?</b></p>
-<p class="p2">You can download a zipfile containing multiple formats of this document:<span class="Apple-converted-space">  </span>* [MultiMarkdown-Gallery](http://fletcher.github.com/MultiMarkdown-Gallery) <span class="Apple-converted-space">  </span>This file includes:<span class="Apple-converted-space">  </span>* The Scrivener source file * A plain text file in MultiMarkdown format * An XHTML file * A PDF * An RTF<span class="Apple-converted-space">  </span>All files were generated automatically from the MultiMarkdown source document.<span class="Apple-converted-space"> </span></p>
-<p class="p3"><br></p>
-<p class="p1"><b>• So, What Can This Document Demonstrate?</b></p>
-<p class="p3"><br></p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Metadata</b></p>
-<p class="p2">First, take a look at the overall structure of the document. At the very beginning is metadata, including a title, author, keywords, copyright information, etc. Where possible, this metadata is put to appropriate use, otherwise it is stored in a format designed to be easily read and minimally distracting:<span class="Apple-converted-space">  </span>* In plain text and XHTML snippets[^snippets], it is located at the top of the <span class="Apple-converted-space">  </span>document.<span class="Apple-converted-space">  </span>* In a full XHTML document, is located in the `&lt;head&gt;` section, and the title <span class="Apple-converted-space">  </span>and CSS metadata, if...</p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Structure</b></p>
-<p class="p2">The next thing to look at is the overall structure of the document. You can visualize a Markdown document as an outline, with different sections and different levels within those sections. Based on your output format, these can be used to generate headers, or sections, or even chapters. It's all based on what tools you use to process the XHTML output.<span class="Apple-converted-space">  </span>Even within the XHTML document, however, you can make use of this structure to allow easy navigation within the document. You can link directly t...</p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Footnotes</b></p>
-<p class="p2">Footnotes are very easy to implement in MultiMarkdown, as described in the MultiMarkdown Syntax Guide.[^somesamplefootnote]<span class="Apple-converted-space">  </span>[^somesamplefootnote]: Here is the text of the footnote itself.</p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Tables</b></p>
-<p class="p2">Tables can be quite useful for showing data in a meaningful way. As an example, here is a table comparing [MultiMarkdown vs. Crayons][]. <span class="Apple-converted-space">  </span>[MultiMarkdown vs. Crayons][MultiMarkdown vs. Crayons] | Features<span class="Apple-converted-space">                          </span>| MultiMarkdown |<span class="Apple-converted-space">  </span>Crayons | ----------------------------------- | :-----------: | :------: | Melts in warm places<span class="Apple-converted-space">                </span>| <span class="Apple-converted-space">      </span>No<span class="Apple-converted-space">      </span>|<span class="Apple-converted-space">    </span>Yes <span class="Apple-converted-space">  </span>| Mistakes can be easily fixed<span class="Apple-converted-space">        </span>|<span class="Apple-converted-space">      </span>Yes<span class="Apple-converted-space">      </span>|<span class="Apple-converted-space">    </span>No<span class="Apple-converted-space">    </span>| Easy to copy documents for friends<span class="Apple-converted-space">  </span>|<span class="Apple-converted-space">      </span>Yes...</p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Typographical conventions</b></p>
-<p class="p2">By incorporating John Gruber's [SmartyPants][] program into your workflow, you can generate more "correct" typographic punction in your XHTML pages, and in your LaTeX source if you are generating PDF's---this includes en and em dashes, and ellipses....<span class="Apple-converted-space">  </span>Very nice when you want to focus on writing, not grammar. <span class="Apple-converted-space">  </span>[SmartyPants]: http://daringfireball.net/projects/smartypants/<span class="Apple-converted-space"> </span></p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Image Support</b></p>
-<p class="p2">If you choose to incorporate images in your documents, this can be easily done as well. MultiMarkdown makes it easier to link to images and include various attributes.<span class="Apple-converted-space">  </span>As an example, here is an image from my website---[Nautilus Star](#nautilusstar).<span class="Apple-converted-space">  </span>If you have a local copy of the image, you can include the image in a pdf.<span class="Apple-converted-space">  </span>![Nautilus Star][]<span class="Apple-converted-space">  </span>[Nautilus Star]: Nautilus_Star.png "Nautilus Star" width=307px height=250px<span class="Apple-converted-space"> </span></p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Bibliography Support</b></p>
-<p class="p2">MultiMarkdown offers several mechanisms for managing bibliographies. It has built-in support for basic citation and bibliography management and formatting, or you can rely on external tools to handle this for you. There aren't many citations in this document, but I think it gets the point across.[p. 42][#fake] <span class="Apple-converted-space">  </span>[#fake]: John Doe. *A Totally Fake Book*.<span class="Apple-converted-space">  </span>Vanity Press, 2006.<span class="Apple-converted-space"> </span></p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Glossary Support</b></p>
-<p class="p2">MultiMarkdown has a special format for footnotes that should represent glossary terms. This doesn't make much difference in XHTML (because there is no such thing as a glossary in XHTML), but can be used to generate a glossary within LaTeX documents.<span class="Apple-converted-space">  </span>For example, let's have an entry for `glossary`.[^glossary] And what about ampersands?[^amp]<span class="Apple-converted-space">  </span>Since we want the ampersand entry to be sorted with the a's, and not with symbols, we put in the optional sort key `ampersand` to control sorting. <span class="Apple-converted-space">  </span>[^glos...</p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Math Support</b></p>
-<p class="p2">It's pretty easy to include mathematical equations:<span class="Apple-converted-space">  </span>&lt;&lt; e^(i pi) + 1 = 0 [Euler's identity]&gt;&gt;<span class="Apple-converted-space">  </span>&lt;&lt; x_(1,2) = (-b+-sqrt(b^2-4ac))/(2a) [quadratic equation solution]&gt;&gt;<span class="Apple-converted-space">  </span>You can also include formulas within a sentence, such as &lt;&lt;x^2 + y^2 = 1&gt;&gt;.</p>
-<p class="p3"><br></p>
-<p class="p1"><b>• Now What?</b></p>
-<p class="p2">Get out there and try it. Let me know what you think. Let me know what doesn't work. Let me know what you think is missing.<span class="Apple-converted-space">  </span>In other words, help me make it better!<span class="Apple-converted-space">  </span>You can get more information on my web site:<span class="Apple-converted-space">  </span>* &lt;http://fletcherpenney.net/multimarkdown&gt;<span class="Apple-converted-space">  </span>You can also:<span class="Apple-converted-space">  </span>* Email me:<span class="Apple-converted-space">    </span>&lt;mailto:owner@fletcherpenney.net&gt;<span class="Apple-converted-space">  </span>* Join the MultiMarkdown discussion list:<span class="Apple-converted-space">    </span>&lt;http://groups.google.com/group/multimarkdown&gt;<span class="Apple-converted-space">  </span>* Join the Markdown discussion list:<span class="Apple-converted-space">    </span>&lt;http://six.pairlist.net/mailman/listinfo/mar...</p>
-<p class="p3"><br></p>
+<body background="qlbg.jpg">
+<center>
+<table border="0" width="100%" cellspacing="10">
+<tr>
+<td>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Meta-Data</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+latex input:        mmd-article-header Title:              Sample MultiMarkdown Document   Base Header Level:  2   latex mode:         memoir   language:           french Keywords:           MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,    CSS:                http://fletcherpenney.net/css/document.css   xhtml header:       &lt;script type=&quot;text/javascript&quot;                      src=&quot;http://helium.local/~fletcher/mathjax/MathJax.js&quot;&gt;                     &lt;/script&gt; latex input:        mmd-article-beg...
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Introduction</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+As I  add increasing numbers  of features to  MultiMarkdown, I decided  it was time to create  a sample document to  show them off. Many of  the features are demonstrated in the [MultiMarkdown User&apos;s Guide][], but some are not.  Additionally,  it&apos;s easy  for those  features to  get lost  within all  of the technical  documentation.  This document  is  designed  to *demonstrate*,  not describe, most of the features of MultiMarkdown.   [MultiMarkdown User&apos;s Guide]: http://fletcherpenney.net/mmd/us...
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>How to Use This Document</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+I suggest comparing  the raw text source with the  various final outputs (e.g. PDF, XHTML, LaTeX, RTF)  in order to see what can  be accomplished. There will be  many similarities  between output  formats,  but also  a few  differences. Tables will  end up in  different places. Paragraphs  won&apos;t break in  the same way.  But these  differences are  superficial and  are a  result of  trying to optimize each format, without regard to identical output across formats (which would be virtually impossi...
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Where Can I Get a Copy?</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+You can download a zipfile containing multiple formats of this document:  * [MultiMarkdown-Gallery](http://fletcher.github.com/MultiMarkdown-Gallery)   This file includes:  * The Scrivener source file * A plain text file in MultiMarkdown format * An XHTML file * A PDF * An RTF  All files were generated automatically from the MultiMarkdown source document.
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>So, What Can This Document Demonstrate?</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Metadata</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+First, take  a look  at the  overall structure  of the  document. At  the very beginning  is  metadata,  including   a  title,  author,  keywords,  copyright information, etc.  Where possible,  this metadata is  put to  appropriate use, otherwise it is  stored in a format  designed to be easily  read and minimally distracting:  * In plain text and XHTML snippets[^snippets], it is located at the top of the   document.  * In a full XHTML document, is located in the `&lt;head&gt;` section, and the title ...
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Structure</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+The next thing  to look at is  the overall structure of the  document. You can visualize  a Markdown  document as  an  outline, with  different sections  and different levels within those sections. Based on your output format, these can be used to generate headers, or sections,  or even chapters. It&apos;s all based on what tools you use to process the XHTML output.  Even within the XHTML document, however, you can make use of this structure to allow  easy navigation  within  the document.  You can  ...
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Footnotes</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+Footnotes are  very easy to  implement in  MultiMarkdown, as described  in the MultiMarkdown Syntax Guide.[^somesamplefootnote]  [^somesamplefootnote]: Here is the text of the footnote itself.
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Tables</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+Tables  can be  quite useful  for  showing data  in  a meaningful  way. As  an example, here is a table comparing [MultiMarkdown vs. Crayons][].   [MultiMarkdown vs. Crayons]   | Features                          | MultiMarkdown |  Crayons |   ----------------------------------- | :-----------: | :------: |   Melts in warm places                |       No      |    Yes   |   Mistakes can be easily fixed        |      Yes      |    No    |   Easy to copy documents for friends  |      Yes      |  ...
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Typographical conventions</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+By incorporating John Gruber&apos;s [SmartyPants][] program into your workflow, you can generate more  &quot;correct&quot; typographic punction in your XHTML  pages, and in your  LaTeX source  if  you are  generating PDF&apos;s---this  includes  en and  em dashes, and ellipses....  Very nice when you want to focus on writing, not grammar.   [SmartyPants]: http://daringfireball.net/projects/smartypants/
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Image Support</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+If you choose to incorporate images in your documents, this can be easily done as well. MultiMarkdown  makes it easier to link to  images and include various attributes.  As   an  example,   here  is   an  image   from  my   website  ---   [Nautilus Star](#nautilusstar). If you  have a local copy of the  image, you can include the image in a pdf.  ![Nautilus Star][]  [Nautilus Star]: Nautilus_Star.png &quot;Nautilus Star&quot; width=307px height=250px
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Bibliography Support</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+MultiMarkdown offers  several mechanisms  for managing bibliographies.  It has built-in  support   for  basic   citation  and  bibliography   management  and formatting, or you  can rely on external  tools to handle this  for you. There aren&apos;t  many  citations in  this  document,  but I  think  it  gets the  point across.[p. 42][#fake]   [#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Glossary Support</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+MultiMarkdown  has  a  special  format for  footnotes  that  should  represent glossary terms. This  doesn&apos;t make much difference in XHTML  (because there is no such thing as a glossary in XHTML),  but can be used to generate a glossary within LaTeX documents.  For example,  let&apos;s have  an entry for  `glossary`.[^glossary] And  what about ampersands?[^amp]  Since we  want the ampersand  entry to  be sorted with  the a&apos;s, and  not with symbols, we put in the optional sort key `ampersand` to contr...
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Math Support</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+It&apos;s pretty easy to include mathematical equations:  \\[ {e}^{i\pi }+1=0 \\]  \\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\]   You can also include formulas within a sentence, such as \\({x}^{2}+{y}^{2}=1\\).
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table class="indexcard" width="100%" border="0" bgcolor="white" cellspacing="3" cellpadding="2">
+<tr bgcolor="white">
+<td valign="top" bgcolor="#FFFFFF">
+<font face="verdana, arial, helvetica" size=3 color="#000000">
+<b>Now What?</b>
+</font>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="white">
+<font face="verdana, arial, helvetica" size=2>
+Get out there and try it. Let me know what you think. Let me know what doesn&apos;t work. Let me know what you think is missing.  In other words, help me make it better!  You can get more information on my web site:  * &lt;http://fletcherpenney.net/multimarkdown&gt;  You can also:  * Email me:    &lt;mailto:owner@fletcherpenney.net&gt;  * Join the MultiMarkdown discussion list:    &lt;http://groups.google.com/group/multimarkdown&gt;  * Join the Markdown discussion list:    &lt;http://six.pairlist.net/mailman/listinfo/mar...
+</font>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</center>
 </body>
 </html>

@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
-	"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<!-- Processed by MultiMarkdown -->
-		<meta name="Author" content="Fletcher T. Penney" />
-		<meta name="BaseHeaderLevel" content="2" />
-		<link type="text/css" rel="stylesheet" href="http://fletcherpenney.net/css/document.css" />
-		<meta name="Copyright" content="2006-2009 Fletcher T. Penney.  
-This work is licensed under a Creative Commons License.  
-http://creativecommons.org/licenses/by-sa/3.0/" />
-		<meta name="Format" content="complete" />
-		<meta name="Keywords" content="MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF," />
-		<meta name="LaTeXXSLT" content="article.xslt" />
-		<meta name="RTFXSLT" content="xhtml2rtf" />
-		<title>Sample MultiMarkdown Document</title>
-		
-	</head>
-<body>
+<head>
+	<meta name="latexinput" content="mmd-article-header"/>
+	<title>Sample MultiMarkdown Document  </title>
+	<meta name="latexmode" content="memoir  "/>
+	<meta name="language" content="french"/>
+	<meta name="keywords" content="MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,   "/>
+	<link type="text/css" rel="stylesheet" href="http://fletcherpenney.net/css/document.css  "/>
+<script type="text/javascript" 
+src="http://helium.local/~fletcher/mathjax/MathJax.js">
+</script>
 
+	<meta name="latexinput" content="mmd-article-begin-doc"/>
+	<meta name="latexfooter" content="mmd-memoir-footer"/>
+</head>
+<body>
 <h2 id="introduction">Introduction</h2>
 
 <p>As I add increasing numbers of features to MultiMarkdown, I decided it was
@@ -45,13 +41,13 @@ document in plain text, with minimal distraction from markup, that can be
 transformed into a variety of high quality outputs. Or, to quote John Gruber:</p>
 
 <blockquote>
-  <p>The overriding design goal for Markdown&#8217;s formatting syntax is to make it as
+<p>The overriding design goal for Markdown&#8217;s formatting syntax is to make it as
 readable as possible. The idea is that a Markdown-formatted document should be
 publishable as-is, as plain text, without looking like it&#8217;s been marked up
 with tags or formatting instructions. While Markdown&#8217;s syntax has been
 influenced by several existing text-to-HTML filters, the single biggest source
 of inspiration for Markdown&#8217;s syntax is the format of plain text
-email.<span class="markdowncitation"> (<a href="#Gruber" title="see citation">1</a>)</span></p>
+email.<a class="citation" href="#fn:1" title="Jump to citation">[1]<span class="citekey" style="display:none">Gruber</span></a></p>
 </blockquote>
 
 <h2 id="wherecanigetacopy">Where Can I Get a Copy?</h2>
@@ -85,17 +81,17 @@ otherwise it is stored in a format designed to be easily read and minimally
 distracting:</p>
 
 <ul>
-<li><p>In plain text and XHTML snippets<a href="#fn:snippets" id="fnref:snippets" title="see footnote" class="footnote">1</a>, it is located at the top of the
-document.</p></li>
+<li><p>In plain text and XHTML snippets<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a>, it is located at the top of the
+ document.</p></li>
 <li><p>In a full XHTML document, is located in the <code>&lt;head&gt;</code> section, and the title
-and CSS metadata, if present, are used appropriately.</p></li>
+ and CSS metadata, if present, are used appropriately.</p></li>
 <li><p>In a PDF generated from my XSLT files, metadata is used to generate the
-appropriate fields (title, author, keywords) in the PDF itself. Some PDF
-readers will let you examine this data. Additionally, the title, subtitle,
-author, and copyright are placed at the beginning of the document.</p></li>
+ appropriate fields (title, author, keywords) in the PDF itself. Some PDF
+ readers will let you examine this data. Additionally, the title, subtitle,
+ author, and copyright are placed at the beginning of the document.</p></li>
 <li><p>In a Scrivener document, you can put the metadata in the first File in the
-Binder, but the preferred location is in the &#8220;MultiMarkdown Settings&#8230;&#8221;
-pane (in the File Menu.)</p></li>
+ Binder, but the preferred location is in the &#8220;MultiMarkdown Settings&#8230;&#8221;
+ pane (in the File Menu.)</p></li>
 </ul>
 
 <p>There are a lot of standard metadata keys that can be used, or you can create
@@ -111,64 +107,66 @@ what tools you use to process the XHTML output.</p>
 
 <p>Even within the XHTML document, however, you can make use of this structure to
 allow easy navigation within the document. You can link directly to the
-<a href="#introduction" title="Introduction">Introduction</a> (and to <a href="#introduction" title="Introduction"></a> when using LaTeX), for instance. And if you are creating a PDF, it will contain
-a hierarchy of section names that you can use to allow easy navigation, if
-your PDF reader supports this function.</p>
+<a href="#introduction">Introduction</a> (and to <a href="#introduction"></a> when using LaTeX), for instance. And
+if you are creating a PDF, it will contain a hierarchy of section names that
+you can use to allow easy navigation, if your PDF reader supports this
+function.</p>
 
 <h3 id="footnotes">Footnotes</h3>
 
 <p>Footnotes are very easy to implement in MultiMarkdown, as described in the
-MultiMarkdown Syntax Guide.<a href="#fn:somesamplefootnote" id="fnref:somesamplefootnote" title="see footnote" class="footnote">2</a></p>
+MultiMarkdown Syntax Guide.<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a></p>
 
 <h3 id="tables">Tables</h3>
 
 <p>Tables can be quite useful for showing data in a meaningful way. As an
-example, here is a table comparing <a href="#multimarkdownvs.crayons" title="see table">MultiMarkdown vs. Crayons</a>.</p>
+example, here is a table comparing <a href="#multimarkdownvs.crayons">MultiMarkdown vs. Crayons</a>.</p>
 
 <table>
 <caption id="multimarkdownvs.crayons">MultiMarkdown vs. Crayons</caption>
-<col />
-<col align="center" />
-<col align="center" />
+<col align="left"/>
+<col align="center"/>
+<col align="center"/>
+
 <thead>
 <tr>
-	<th>Features</th>
-	<th>MultiMarkdown</th>
-	<th>Crayons</th>
+	<th align="left">Features</th>
+	<th align="center">MultiMarkdown</th>
+	<th align="center">Crayons</th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-	<td>Melts in warm places</td>
+	<td align="left">Melts in warm places</td>
 	<td align="center">No</td>
 	<td align="center">Yes</td>
 </tr>
 <tr>
-	<td>Mistakes can be easily fixed</td>
+	<td align="left">Mistakes can be easily fixed</td>
 	<td align="center">Yes</td>
 	<td align="center">No</td>
 </tr>
 <tr>
-	<td>Easy to copy documents for friends</td>
+	<td align="left">Easy to copy documents for friends</td>
 	<td align="center">Yes</td>
 	<td align="center">No</td>
 </tr>
 <tr>
-	<td>Fun at parties</td>
-	<td align="center">No<a href="#fn:parties" id="fnref:parties" title="see footnote" class="footnote">3</a></td>
+	<td align="left">Fun at parties</td>
+	<td align="center">No<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></td>
 	<td align="center">Why not?</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
-	<td>Minimum markup for maximum quality?</td>
+	<td align="left">Minimum markup for maximum quality?</td>
 	<td align="center">Yes</td>
 	<td align="center">No</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="typographicalconventions">Typographical conventions</h3>
 
 <p>By incorporating John Gruber&#8217;s <a href="http://daringfireball.net/projects/smartypants/">SmartyPants</a> program into your workflow, you
@@ -184,10 +182,11 @@ dashes, and ellipses&#8230;.</p>
 as well. MultiMarkdown makes it easier to link to images and include various
 attributes.</p>
 
-<p>As an example, here is an image from my website&#8212;<a href="#nautilusstar">Nautilus Star</a>.  If you have a local copy of the image, you can include
+<p>As an example, here is an image from my website &#8212; <a href="#nautilusstar">Nautilus
+Star</a>. If you have a local copy of the image, you can include
 the image in a pdf.</p>
 
-<p><img id="nautilusstar" src="Nautilus_Star.png" alt="Nautilus Star" title="Nautilus Star" width="307px" height="250px" /></p>
+<p><img src="Nautilus_Star.png" id="nautilusstar" alt="Nautilus Star" title="Nautilus Star" width="307px" height="250px" /></p>
 
 <h3 id="bibliographysupport">Bibliography Support</h3>
 
@@ -195,7 +194,7 @@ the image in a pdf.</p>
 built-in support for basic citation and bibliography management and
 formatting, or you can rely on external tools to handle this for you. There
 aren&#8217;t many citations in this document, but I think it gets the point
-across.<span class="markdowncitation"> (<a href="#fake" title="see citation">2</a>, <span class="locator">p. 42</span>)</span></p>
+across.<a class="citation" href="#fn:5" title="Jump to citation">[<span class="locator">p. 42</span>, 5]<span class="citekey" style="display:none">fake</span></a></p>
 
 <h3 id="glossarysupport">Glossary Support</h3>
 
@@ -204,8 +203,8 @@ glossary terms. This doesn&#8217;t make much difference in XHTML (because there 
 no such thing as a glossary in XHTML), but can be used to generate a glossary
 within LaTeX documents.</p>
 
-<p>For example, let&#8217;s have an entry for <code>glossary</code>.<a href="#fn:glossary" id="fnref:glossary" title="see glossary" class="footnote glossary">4</a> And what about
-ampersands?<a href="#fn:amp" id="fnref:amp" title="see glossary" class="footnote glossary">5</a></p>
+<p>For example, let&#8217;s have an entry for <code>glossary</code>.<a href="#fn:6" id="fnref:6" title="see footnote" class="footnote glossary">[6]</a> And what about
+ampersands?<a href="#fn:7" id="fnref:7" title="see footnote" class="footnote glossary">[7]</a></p>
 
 <p>Since we want the ampersand entry to be sorted with the a&#8217;s, and not with
 symbols, we put in the optional sort key <code>ampersand</code> to control sorting.</p>
@@ -214,18 +213,19 @@ symbols, we put in the optional sort key <code>ampersand</code> to control sorti
     A section at the end ...
 
 [^amp]: glossary: &amp; (ampersand)
-    A punctuation mark ...</code></pre>
+    A punctuation mark ...
+</code></pre>
 
 <h3 id="mathsupport">Math Support</h3>
 
 <p>It&#8217;s pretty easy to include mathematical equations:</p>
 
-<p><math xmlns="http://www.w3.org/1998/Math/MathML" id="eulersidentity" display="block"><mstyle><msup><mi>e</mi><mrow><mi>i</mi><mi>&#x03C0;</mi></mrow></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mstyle></math></p>
+<p><span class="math">\[ {e}^{i\pi }+1=0 \]</span></p>
 
-<p><math xmlns="http://www.w3.org/1998/Math/MathML" id="quadraticequationsolution" display="block"><mstyle><msub><mi>x</mi><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msub><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi><mo>&#x00B1;</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mstyle></math></p>
+<p><span class="math">\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \]</span></p>
 
 <p>You can also include formulas within a sentence, such as
-<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></mstyle></math>.</p>
+<span class="math">\({x}^{2}+{y}^{2}=1\)</span>.</p>
 
 <h2 id="nowwhat">Now What?</h2>
 
@@ -243,11 +243,11 @@ work. Let me know what you think is missing.</p>
 <p>You can also:</p>
 
 <ul>
-<li><p>Email me: <br />
-<a href="&#x6D;&#97;&#105;&#108;&#116;&#111;:&#111;&#x77;&#x6E;&#101;&#114;&#64;&#102;&#x6C;&#101;&#116;&#x63;h&#101;&#x72;&#112;&#x65;&#x6E;&#x6E;&#101;&#x79;&#x2E;&#110;e&#116;">&#111;&#x77;&#x6E;&#101;&#114;&#64;&#102;&#x6C;&#101;&#116;&#x63;h&#101;&#x72;&#112;&#x65;&#x6E;&#x6E;&#101;&#x79;&#x2E;&#110;e&#116;</a></p></li>
-<li><p>Join the MultiMarkdown discussion list: <br />
+<li><p>Email me:<br/>
+<a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;&#58;&#111;&#x77;&#x6e;&#101;&#x72;&#64;&#102;&#x6c;&#x65;&#x74;&#x63;&#104;&#101;&#x72;&#x70;&#x65;&#x6e;&#110;&#x65;&#x79;&#46;&#110;&#x65;&#x74;">&#111;&#119;&#x6e;&#101;&#x72;&#x40;&#x66;&#x6c;&#x65;&#x74;&#99;&#x68;&#101;&#x72;&#x70;&#101;&#x6e;&#110;&#x65;&#x79;&#x2e;&#110;&#101;&#116;</a></p></li>
+<li><p>Join the MultiMarkdown discussion list:<br/>
 <a href="http://groups.google.com/group/multimarkdown">http://groups.google.com/group/multimarkdown</a></p></li>
-<li><p>Join the Markdown discussion list: <br />
+<li><p>Join the Markdown discussion list:<br/>
 <a href="http://six.pairlist.net/mailman/listinfo/markdown-discuss">http://six.pairlist.net/mailman/listinfo/markdown-discuss</a></p></li>
 </ul>
 
@@ -255,30 +255,38 @@ work. Let me know what you think is missing.</p>
 <hr />
 <ol>
 
-<li id="fn:snippets"><p>An XHTML snippet is my terminology for XHTML code that does not
+<li id="fn:1" class="citation"><span class="citekey" style="display:none">Gruber</span><p>John Gruber. Daring Fireball: Markdown. [Cited January 2006].
+ Available from <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a>.</p>
+</li>
+
+<li id="fn:2">
+<p>An XHTML snippet is my terminology for XHTML code that does not
 include the <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> tags. Most browsers will display
 it properly, but it is not a complete XHTML document. Without a <code>&lt;head&gt;</code>
-section there is nowhere to put metadata(e.g. there is no <code>&lt;title&gt;</code>).<a href="#fnref:snippets" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+section there is nowhere to put metadata(e.g. there is no <code>&lt;title&gt;</code>).</p> <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+</li>
 
-<li id="fn:somesamplefootnote"><p>Here is the text of the footnote itself.<a href="#fnref:somesamplefootnote" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+<li id="fn:3">
+<p>Here is the text of the footnote itself.</p> <a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+</li>
 
-<li id="fn:parties"><p>I guess it depends on what kind of parties you go to&#8230;<a href="#fnref:parties" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+<li id="fn:4">
+<p>I guess it depends on what kind of parties you go to&#8230;</p> <a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+</li>
 
-<li id="fn:glossary"><span class="glossary name">Glossary</span>:<p>A section at the end &#8230;<a href="#fnref:glossary" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+<li id="fn:5" class="citation"><span class="citekey" style="display:none">fake</span><p>John Doe. <em>A Totally Fake Book</em>. Vanity Press, 2006.</p>
+</li>
 
-<li id="fn:amp"><span class="glossary name">&amp;</span><span class="glossary sort" style="display:none">ampersand</span>:<p>A punctuation mark &#8230;<a href="#fnref:amp" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+<li id="fn:6">
+<span class="glossary name">Glossary </span>: <p>A section at the end &#8230;</p> <a href="#fnref:6" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+</li>
+
+<li id="fn:7">
+<span class="glossary name">&amp; </span><span class="glossary sort" style="display:none">ampersand</span>: <p>A punctuation mark &#8230;</p> <a href="#fnref:7" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+</li>
 
 </ol>
 </div>
 
-<div class="bibliography">
-<hr />
-<p>Bibliography</p>
-
-<div id="Gruber"><p>[1] <span class="item">John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. Available from <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a>.</span></p></div>
-
-<div id="fake"><p>[2] <span class="item">John Doe. <em>A Totally Fake Book</em>.  Vanity Press, 2006.</span></p></div>
-
-</div>
 </body>
 </html>
