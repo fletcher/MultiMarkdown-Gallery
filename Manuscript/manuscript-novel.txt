@@ -1,17 +1,19 @@
-Title:				Novel Manuscript Format
+latex input:		mmd-manuscript-header  
+Title:				Novel Manuscript Format  
 Author:				Matt Carless  
 Address:			Every manuscript should  
 					have your address and  
-					contact details on the title page only.	
+					contact details on the title page only.  
 Agent:				An agent's address can be  
 					included underneath if you  
 					have one.  
-LaTeX XSLT:			manuscript-novel.xslt
-Surname:			Carless
-Base Header Level:	2
+Surname:			Carless  
+Base Header Level:	2  
 Comment:			Based on the information found at the BBC  
 					http://www.bbc.co.uk/writersroom/scriptsmart/formats.shtml  
-					Sample text from that same web site
+					Sample text from that same web site  
+latex input:		mmd-manuscript-begin-doc  
+latex footer:		mmd-memoir-footer.tex  
 
 
 # CHAPTER ONE #
