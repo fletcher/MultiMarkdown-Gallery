@@ -10,6 +10,7 @@ The samples have been upgraded to work with MMD 3.0. If you want samples
 compatible with MMD 2.0, then you can download
 [them](https://github.com/fletcher/MultiMarkdown-Gallery/zipball/2.0).
 
+
 ## Beamer-Presentation ##
 
 by Fletcher T. Penney
@@ -22,8 +23,8 @@ This is an example of using MultiMarkdown to create a PDF slideshow via
 
 by Fletcher T. Penney
 
-This is an example of a file that was styled using MultiMarkdown, the
-`manuscript-novel` XSLT, and the `manuscript` package for LaTeX.
+This is an example of a file that was styled using MultiMarkdown, and the
+`manuscript` package for LaTeX.
 
 Basically, you write in plain text in your favorite word processor or text
 editor, export as MultiMarkdown, and convert to a PDF that is "properly"
@@ -44,7 +45,7 @@ This contains a sample OmniOutliner document, as well as the exported
 MultiMarkdown text file and HTML version, including the embedded image.
 
 For more information, see
-<http://fletcherpenney.net/multimarkdown/multimarkdown_and_omnioutliner/>
+<http://fletcherpenney.net/mmd/multimarkdown_and_omnioutliner/>
 
 
 ## Sample Document ##
@@ -62,11 +63,10 @@ show the output when converted to HTML/XHTML, TeX (using `mmd2LaTeX.pl`) PDF
 
 by Fletcher T. Penney
 
-This is an example of what can be done with the new letterhead feature of MMD
-version 2.0.b4. The base version can be used with LaTeX, but if you want to
-add custom font features using my customized version, you need to use XeLaTeX
-(Mac OS X only, for the most part). LaTeX gurus can get font changes on
-regular LaTeX installs, but this was easier for me.
+This is an example of what can be done with the letterhead feature of MMD. The
+base version can be used with LaTeX, but if you want to add custom font
+features using my customized version, you need to use XeLaTeX. LaTeX gurus can
+get font changes on regular LaTeX installs, but this was easier for me.
 
 
 ## What Is MultiMarkdown? ##
