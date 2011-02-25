@@ -54,9 +54,10 @@ by Fletcher T. Penney
 
 This is the original MultiMarkdown Sample Document. The source file,
 `sample.txt`, demonstrates the original MultiMarkdown markup. The other files
-show the output when converted to HTML/XHTML, TeX (using `mmd2LaTeX.pl`) PDF
-(using `mmd2pdf.pl`), RTF (using the `multimarkdown2RTF.pl` script), and RTFD
-(using TextEdit to convert the XHTML document to RTF with images).
+show the output when converted to HTML/XHTML, LaTeX (using `mmd2tex`) PDF
+(using `latexmk` on the LaTeX file), OPML (using `mmd2opml`), and OpenDocument
+(using `mmd2odf`). Additionally, there is a Scrivener project that shows how
+it could look when imported into Scrivener.
 
 
 ## Sample Letter ##
