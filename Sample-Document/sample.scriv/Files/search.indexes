@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="32">
+        <Document ID="48">
             <Title>Image Support</Title>
             <Text>If you choose to incorporate images in your documents, this can be easily done
 as well. MultiMarkdown  makes it easier to link to  images and include various
@@ -15,7 +15,44 @@ the image in a pdf.
 
 [Nautilus Star]: Nautilus_Star.png "Nautilus Star" width=307px height=250px</Text>
         </Document>
-        <Document ID="25">
+        <Document ID="40">
+            <Title>How to Use This Document</Title>
+            <Text>I suggest comparing  the raw text source with the  various final outputs (e.g.
+PDF, XHTML, LaTeX, RTF)  in order to see what can  be accomplished. There will
+be  many similarities  between output  formats,  but also  a few  differences.
+Tables will  end up in  different places. Paragraphs  won't break in  the same
+way.  But these  differences are  superficial and  are a  result of  trying to
+optimize each format, without regard to identical output across formats (which
+would be virtually impossible).
+
+Remember, the main goal of Markdown\MultiMarkdown  is to allow you to create a
+document in  plain text,  with minimal  distraction from  markup, that  can be
+transformed into a variety of high quality outputs. Or, to quote John Gruber:
+
+> The overriding design goal for Markdown's formatting syntax is to make it as
+readable as possible. The idea is that a Markdown-formatted document should be
+publishable as-is,  as plain text,  without looking  like it's been  marked up
+with  tags  or  formatting  instructions. While  Markdown's  syntax  has  been
+influenced by several existing text-to-HTML filters, the single biggest source
+of  inspiration   for  Markdown's   syntax  is  the   format  of   plain  text
+email.[#Gruber]
+
+
+[#Gruber]: John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. 
+  Available from &lt;http://daringfireball.net/projects/markdown/>.</Text>
+        </Document>
+        <Document ID="49">
+            <Title>Bibliography Support</Title>
+            <Text>MultiMarkdown offers  several mechanisms  for managing bibliographies.  It has
+built-in  support   for  basic   citation  and  bibliography   management  and
+formatting, or you  can rely on external  tools to handle this  for you. There
+aren't  many  citations in  this  document,  but I  think  it  gets the  point
+across.[p. 42][#fake]
+
+
+[#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.</Text>
+        </Document>
+        <Document ID="41">
             <Title>Where Can I Get a Copy?</Title>
             <Text>You can download a zipfile containing multiple formats of this document:
 
@@ -32,21 +69,10 @@ This file includes:
 
 All files were generated automatically from the MultiMarkdown source document.</Text>
         </Document>
-        <Document ID="33">
-            <Title>Bibliography Support</Title>
-            <Text>MultiMarkdown offers  several mechanisms  for managing bibliographies.  It has
-built-in  support   for  basic   citation  and  bibliography   management  and
-formatting, or you  can rely on external  tools to handle this  for you. There
-aren't  many  citations in  this  document,  but I  think  it  gets the  point
-across.[p. 42][#fake]
-
-
-[#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.</Text>
-        </Document>
-        <Document ID="26">
+        <Document ID="42">
             <Title>So, What Can This Document Demonstrate?</Title>
         </Document>
-        <Document ID="34">
+        <Document ID="50">
             <Title>Glossary Support</Title>
             <Text>MultiMarkdown  has  a  special  format for  footnotes  that  should  represent
 glossary terms. This  doesn't make much difference in XHTML  (because there is
@@ -71,7 +97,7 @@ symbols, we put in the optional sort key `ampersand` to control sorting.
 [^amp]: glossary: &amp; (ampersand)
 	A punctuation mark ...</Text>
         </Document>
-        <Document ID="27">
+        <Document ID="43">
             <Title>Metadata</Title>
             <Text>First, take  a look  at the  overall structure  of the  document. At  the very
 beginning  is  metadata,  including   a  title,  author,  keywords,  copyright
@@ -102,7 +128,7 @@ include the `&lt;html>`, `&lt;head>`, and  `&lt;body>` tags. Most browsers will 
 it  properly, but  it is  not a  complete XHTML  document. Without  a `&lt;head>`
 section there is nowhere to put metadata(e.g. there is no `&lt;title>`).</Text>
         </Document>
-        <Document ID="35">
+        <Document ID="51">
             <Title>Math Support</Title>
             <Text>It's pretty easy to include mathematical equations:
 
@@ -114,7 +140,7 @@ section there is nowhere to put metadata(e.g. there is no `&lt;title>`).</Text>
 You can also include formulas within a sentence, such as
 \\({x}^{2}+{y}^{2}=1\\).</Text>
         </Document>
-        <Document ID="28">
+        <Document ID="44">
             <Title>Structure</Title>
             <Text>The next thing  to look at is  the overall structure of the  document. You can
 visualize  a Markdown  document as  an  outline, with  different sections  and
@@ -129,7 +155,7 @@ if you are creating  a PDF, it will contain a hierarchy  of section names that
 you  can use  to  allow easy  navigation,  if your  PDF  reader supports  this
 function.</Text>
         </Document>
-        <Document ID="36">
+        <Document ID="52">
             <Title>Now What?</Title>
             <Text>Get out there and try it. Let me know what you think. Let me know what doesn't
 work. Let me know what you think is missing.
@@ -151,29 +177,28 @@ You can also:
 * Join the Markdown discussion list:  
 	&lt;http://six.pairlist.net/mailman/listinfo/markdown-discuss></Text>
         </Document>
-        <Document ID="29">
+        <Document ID="45">
             <Title>Footnotes</Title>
             <Text>Footnotes are  very easy to  implement in  MultiMarkdown, as described  in the
 MultiMarkdown Syntax Guide.[^somesamplefootnote]
 
 [^somesamplefootnote]: Here is the text of the footnote itself.</Text>
         </Document>
-        <Document ID="22">
+        <Document ID="38">
             <Title>Meta-Data</Title>
-            <Text>latex input:        mmd-article-header
+            <Text>latex input:        mmd-article-header  
 Title:              Sample MultiMarkdown Document  
 Base Header Level:  2  
 latex mode:         memoir  
-language:           french
 Keywords:           MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,   
 CSS:                http://fletcherpenney.net/css/document.css  
 xhtml header:       &lt;script type="text/javascript" 
                     src="http://helium.local/~fletcher/mathjax/MathJax.js">
                     &lt;/script>
-latex input:        mmd-article-begin-doc
-latex footer:       mmd-memoir-footer</Text>
+latex input:        mmd-article-begin-doc  
+latex footer:       mmd-memoir-footer  </Text>
         </Document>
-        <Document ID="30">
+        <Document ID="46">
             <Title>Tables</Title>
             <Text>Tables  can be  quite useful  for  showing data  in  a meaningful  way. As  an
 example, here is a table comparing [MultiMarkdown vs. Crayons][].
@@ -193,7 +218,7 @@ Minimum markup for maximum quality? |      Yes      |    No    |
 
 [^parties]: I guess it depends on what kind of parties you go to...</Text>
         </Document>
-        <Document ID="23">
+        <Document ID="39">
             <Title>Introduction</Title>
             <Text>As I  add increasing numbers  of features to  MultiMarkdown, I decided  it was
 time to create  a sample document to  show them off. Many of  the features are
@@ -207,7 +232,7 @@ describe, most of the features of MultiMarkdown.
 [MultiMarkdown User's Guide]: http://fletcherpenney.net/mmd/users_guide/
   "MultiMarkdown User's Guide"</Text>
         </Document>
-        <Document ID="31">
+        <Document ID="47">
             <Title>Typographical conventions</Title>
             <Text>By incorporating John Gruber's [SmartyPants][] program into your workflow, you
 can generate more  "correct" typographic punction in your XHTML  pages, and in
@@ -218,32 +243,6 @@ Very nice when you want to focus on writing, not grammar.
 
 
 [SmartyPants]: http://daringfireball.net/projects/smartypants/</Text>
-        </Document>
-        <Document ID="24">
-            <Title>How to Use This Document</Title>
-            <Text>I suggest comparing  the raw text source with the  various final outputs (e.g.
-PDF, XHTML, LaTeX, RTF)  in order to see what can  be accomplished. There will
-be  many similarities  between output  formats,  but also  a few  differences.
-Tables will  end up in  different places. Paragraphs  won't break in  the same
-way.  But these  differences are  superficial and  are a  result of  trying to
-optimize each format, without regard to identical output across formats (which
-would be virtually impossible).
-
-Remember, the main goal of Markdown\MultiMarkdown  is to allow you to create a
-document in  plain text,  with minimal  distraction from  markup, that  can be
-transformed into a variety of high quality outputs. Or, to quote John Gruber:
-
-> The overriding design goal for Markdown's formatting syntax is to make it as
-readable as possible. The idea is that a Markdown-formatted document should be
-publishable as-is,  as plain text,  without looking  like it's been  marked up
-with  tags  or  formatting  instructions. While  Markdown's  syntax  has  been
-influenced by several existing text-to-HTML filters, the single biggest source
-of  inspiration   for  Markdown's   syntax  is  the   format  of   plain  text
-email.[#Gruber]
-
-
-[#Gruber]: John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. 
-  Available from &lt;http://daringfireball.net/projects/markdown/>.</Text>
         </Document>
     </Documents>
 </SearchIndexes>

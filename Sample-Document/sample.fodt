@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+     xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+     xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+     xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+     xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+     xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+     xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+     xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+     xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+     xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+     xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+     xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0"
+     xmlns:ooo="http://openoffice.org/2004/office"
+     xmlns:ooow="http://openoffice.org/2004/writer"
+     xmlns:oooc="http://openoffice.org/2004/calc"
+     xmlns:dom="http://www.w3.org/2001/xml-events"
+     xmlns:xforms="http://www.w3.org/2002/xforms"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:rpt="http://openoffice.org/2005/report"
+     xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+     xmlns:tableooo="http://openoffice.org/2009/table"
+     xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0"
+     xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0"
+     xmlns:css3t="http://www.w3.org/TR/css3-text/"
+     office:version="1.2"
+     grddl:transformation="http://docs.oasis-open.org/office/1.2/xslt/odf2rdf.xsl"
+     office:mimetype="application/vnd.oasis.opendocument.text">
+<office:styles>
+<style:style style:name="Source_20_Text" style:display-name="Source Text"
+             style:family="text">
+   <style:text-properties style:font-name="Courier New" style:font-name-asian="Courier New"
+                          style:font-name-complex="Courier New"/>
+</style:style>
+<style:style style:name="Quotations" style:family="paragraph"
+             style:parent-style-name="Standard"
+             style:class="html">
+   <style:paragraph-properties fo:margin-left="0.3937in" fo:margin-right="0.3937in" fo:margin-top="0in"
+                               fo:margin-bottom="0.1965in"
+                               fo:text-indent="0in"
+                               style:auto-text-indent="false"/>
+</style:style>
+<style:style style:name="Table_20_Heading" style:display-name="Table Heading"
+             style:family="paragraph"
+             style:parent-style-name="Table_20_Contents"
+             style:class="extra">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"
+                               text:number-lines="false"
+                               text:line-number="0"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"
+                          style:font-weight-complex="bold"/>
+</style:style>
+</office:styles>
+<office:automatic-styles>   <style:style style:name="MMD-Italic" style:family="text">
+      <style:text-properties fo:font-style="italic" style:font-style-asian="italic"
+                             style:font-style-complex="italic"/>
+   </style:style>
+   <style:style style:name="MMD-Bold" style:family="text">
+      <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"
+                             style:font-weight-complex="bold"/>
+   </style:style>
+<style:style style:name="MMD-Center" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+</style:style>
+<style:style style:name="MMD-Right" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="right" style:justify-single-word="false"/>
+</style:style>
+</office:automatic-styles>
+<style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard"
+             style:list-style-name="L1"/>
+<style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard"
+             style:list-style-name="L2"/>
+<text:list-style style:name="L1">
+	<text:list-level-style-bullet />
+</text:list-style>
+<text:list-style style:name="L2">
+	<text:list-level-style-number />
+</text:list-style>
+<office:meta>
+<dc:title>Sample MultiMarkdown Document</dc:title>
+<meta:user-defined meta:name="keywords">MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,</meta:user-defined>
+</office:meta>
+<office:body>
+<office:text>
+<text:h text:outline-level="1"><text:bookmark text:name="introduction"/>Introduction<text:bookmark-end text:name="introduction"/></text:h>
+<text:p text:style-name="Standard">As I add increasing numbers of features to MultiMarkdown, I decided it was
+time to create a sample document to show them off. Many of the features are
+demonstrated in the <text:a xlink:type="simple" xlink:href="http://fletcherpenney.net/mmd/users_guide/" office:name="MultiMarkdown User's Guide">MultiMarkdown User&#8217;s Guide</text:a>, but some are not.</text:p>
+<text:p text:style-name="Standard">Additionally, it&#8217;s easy for those features to get lost within all of the
+technical documentation. This document is designed to <text:span text:style-name="MMD-Italic">demonstrate</text:span>, not
+describe, most of the features of MultiMarkdown.</text:p>
+<text:h text:outline-level="1"><text:bookmark text:name="howtousethisdocument"/>How to Use This Document<text:bookmark-end text:name="howtousethisdocument"/></text:h>
+<text:p text:style-name="Standard">I suggest comparing the raw text source with the various final outputs (e.g.
+PDF, XHTML, LaTeX, RTF) in order to see what can be accomplished. There will
+be many similarities between output formats, but also a few differences.
+Tables will end up in different places. Paragraphs won&#8217;t break in the same
+way. But these differences are superficial and are a result of trying to
+optimize each format, without regard to identical output across formats (which
+would be virtually impossible).</text:p>
+<text:p text:style-name="Standard">Remember, the main goal of Markdown\MultiMarkdown is to allow you to create a
+document in plain text, with minimal distraction from markup, that can be
+transformed into a variety of high quality outputs. Or, to quote John Gruber:</text:p>
+<text:p text:style-name="Quotations">The overriding design goal for Markdown&#8217;s formatting syntax is to make it as
+readable as possible. The idea is that a Markdown-formatted document should be
+publishable as-is, as plain text, without looking like it&#8217;s been marked up
+with tags or formatting instructions. While Markdown&#8217;s syntax has been
+influenced by several existing text-to-HTML filters, the single biggest source
+of inspiration for Markdown&#8217;s syntax is the format of plain text
+email.[#Gruber] (Citations Not supported yet)</text:p>
+<text:h text:outline-level="1"><text:bookmark text:name="wherecanigetacopy"/>Where Can I Get a Copy?<text:bookmark-end text:name="wherecanigetacopy"/></text:h>
+<text:p text:style-name="Standard">You can download a zipfile containing multiple formats of this document:</text:p>
+<text:list><text:list-item>
+<text:p text:style-name="P2"><text:a xlink:type="simple" xlink:href="http://fletcher.github.com/MultiMarkdown-Gallery">MultiMarkdown-Gallery</text:a></text:p></text:list-item>
+</text:list><text:p text:style-name="Standard">This file includes:</text:p>
+<text:list><text:list-item>
+<text:p text:style-name="P2">The Scrivener source file</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P2">A plain text file in MultiMarkdown format</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P2">An XHTML file</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P2">A PDF</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P2">An RTF</text:p></text:list-item>
+</text:list><text:p text:style-name="Standard">All files were generated automatically from the MultiMarkdown source document.</text:p>
+<text:h text:outline-level="1"><text:bookmark text:name="sowhatcanthisdocumentdemonstrate"/>So, What Can This Document Demonstrate?<text:bookmark-end text:name="sowhatcanthisdocumentdemonstrate"/></text:h>
+<text:h text:outline-level="2"><text:bookmark text:name="metadata"/>Metadata<text:bookmark-end text:name="metadata"/></text:h>
+<text:p text:style-name="Standard">First, take a look at the overall structure of the document. At the very
+beginning is metadata, including a title, author, keywords, copyright
+information, etc. Where possible, this metadata is put to appropriate use,
+otherwise it is stored in a format designed to be easily read and minimally
+distracting:</text:p>
+<text:list><text:list-item>
+<text:p text:style-name="List">In plain text and XHTML snippets<text:note text:id="" text:note-class="footnote"><text:note-body>
+<text:p text:style-name="Footnote">An XHTML snippet is my terminology for XHTML code that does not
+include the <text:span text:style-name="Source_20_Text">&lt;html&gt;</text:span>, <text:span text:style-name="Source_20_Text">&lt;head&gt;</text:span>, and <text:span text:style-name="Source_20_Text">&lt;body&gt;</text:span> tags. Most browsers will display
+it properly, but it is not a complete XHTML document. Without a <text:span text:style-name="Source_20_Text">&lt;head&gt;</text:span>
+section there is nowhere to put metadata(e.g. there is no <text:span text:style-name="Source_20_Text">&lt;title&gt;</text:span>).</text:p>
+</text:note-body>
+</text:note>
+, it is located at the top of the
+ document.</text:p>
+</text:list-item>
+<text:list-item>
+<text:p text:style-name="List">In a full XHTML document, is located in the <text:span text:style-name="Source_20_Text">&lt;head&gt;</text:span> section, and the title
+ and CSS metadata, if present, are used appropriately.</text:p>
+</text:list-item>
+<text:list-item>
+<text:p text:style-name="List">In a PDF generated from my XSLT files, metadata is used to generate the
+ appropriate fields (title, author, keywords) in the PDF itself. Some PDF
+ readers will let you examine this data. Additionally, the title, subtitle,
+ author, and copyright are placed at the beginning of the document.</text:p>
+</text:list-item>
+<text:list-item>
+<text:p text:style-name="List">In a Scrivener document, you can put the metadata in the first File in the
+ Binder, but the preferred location is in the &#8220;MultiMarkdown Settings&#8230;&#8221;
+ pane (in the File Menu.)</text:p>
+</text:list-item>
+</text:list><text:p text:style-name="Standard">There are a lot of standard metadata keys that can be used, or you can create
+your own and use them as you see fit. Definitely a powerful feature.</text:p>
+<text:h text:outline-level="2"><text:bookmark text:name="structure"/>Structure<text:bookmark-end text:name="structure"/></text:h>
+<text:p text:style-name="Standard">The next thing to look at is the overall structure of the document. You can
+visualize a Markdown document as an outline, with different sections and
+different levels within those sections. Based on your output format, these can
+be used to generate headers, or sections, or even chapters. It&#8217;s all based on
+what tools you use to process the XHTML output.</text:p>
+<text:p text:style-name="Standard">Even within the XHTML document, however, you can make use of this structure to
+allow easy navigation within the document. You can link directly to the
+<text:bookmark-ref text:reference-format="page" text:ref-name="introduction">Introduction</text:bookmark-ref> (and to  when using LaTeX), for instance. And
+if you are creating a PDF, it will contain a hierarchy of section names that
+you can use to allow easy navigation, if your PDF reader supports this
+function.</text:p>
+<text:h text:outline-level="2"><text:bookmark text:name="footnotes"/>Footnotes<text:bookmark-end text:name="footnotes"/></text:h>
+<text:p text:style-name="Standard">Footnotes are very easy to implement in MultiMarkdown, as described in the
+MultiMarkdown Syntax Guide.<text:note text:id="" text:note-class="footnote"><text:note-body>
+<text:p text:style-name="Footnote">Here is the text of the footnote itself.</text:p>
+</text:note-body>
+</text:note>
+</text:p>
+<text:h text:outline-level="2"><text:bookmark text:name="tables"/>Tables<text:bookmark-end text:name="tables"/></text:h>
+<text:p text:style-name="Standard">Tables can be quite useful for showing data in a meaningful way. As an
+example, here is a table comparing <text:bookmark-ref text:reference-format="page" text:ref-name="multimarkdownvs.crayons">MultiMarkdown vs. Crayons</text:bookmark-ref>.</text:p>
+
+<table:table>
+<text:bookmark text:name="multimarkdownvs.crayons"/><text:bookmark-end text:name="multimarkdownvs.crayons"/><table:table-column/>
+<table:table-column/>
+<table:table-column/>
+<table:table-row>
+<table:table-cell>
+<text:p text:style-name="Table_20_Heading">Features</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="Table_20_Heading">MultiMarkdown</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="Table_20_Heading">Crayons</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p>Melts in warm places</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">No</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">Yes</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p>Mistakes can be easily fixed</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">Yes</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">No</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p>Easy to copy documents for friends</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">Yes</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">No</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p>Fun at parties</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">No<text:note text:id="" text:note-class="footnote"><text:note-body>
+<text:p text:style-name="Footnote">I guess it depends on what kind of parties you go to&#8230;</text:p>
+</text:note-body>
+</text:note>
+</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">Why not?</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p>Minimum markup for maximum quality?</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">Yes</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Center">No</text:p>
+</table:table-cell>
+</table:table-row>
+</table:table><text:h text:outline-level="2"><text:bookmark text:name="typographicalconventions"/>Typographical conventions<text:bookmark-end text:name="typographicalconventions"/></text:h>
+<text:p text:style-name="Standard">By incorporating John Gruber&#8217;s <text:a xlink:type="simple" xlink:href="http://daringfireball.net/projects/smartypants/">SmartyPants</text:a> program into your workflow, you
+can generate more &#8220;correct&#8221; typographic punction in your XHTML pages, and in
+your LaTeX source if you are generating PDF&#8217;s&#8212;this includes en and em
+dashes, and ellipses&#8230;.</text:p>
+<text:p text:style-name="Standard">Very nice when you want to focus on writing, not grammar.</text:p>
+<text:h text:outline-level="2"><text:bookmark text:name="imagesupport"/>Image Support<text:bookmark-end text:name="imagesupport"/></text:h>
+<text:p text:style-name="Standard">If you choose to incorporate images in your documents, this can be easily done
+as well. MultiMarkdown makes it easier to link to images and include various
+attributes.</text:p>
+<text:p text:style-name="Standard">As an example, here is an image from my website &#8212; <text:bookmark-ref text:reference-format="page" text:ref-name="nautilusstar">Nautilus
+Star</text:bookmark-ref>. If you have a local copy of the image, you can include
+the image in a pdf.</text:p>
+<text:p text:style-name="Standard">[Image "Nautilus Star", Nautilus_Star.png]</text:p>
+<text:h text:outline-level="2"><text:bookmark text:name="bibliographysupport"/>Bibliography Support<text:bookmark-end text:name="bibliographysupport"/></text:h>
+<text:p text:style-name="Standard">MultiMarkdown offers several mechanisms for managing bibliographies. It has
+built-in support for basic citation and bibliography management and
+formatting, or you can rely on external tools to handle this for you. There
+aren&#8217;t many citations in this document, but I think it gets the point
+across.[#fake] (Citations Not supported yet)</text:p>
+<text:h text:outline-level="2"><text:bookmark text:name="glossarysupport"/>Glossary Support<text:bookmark-end text:name="glossarysupport"/></text:h>
+<text:p text:style-name="Standard">MultiMarkdown has a special format for footnotes that should represent
+glossary terms. This doesn&#8217;t make much difference in XHTML (because there is
+no such thing as a glossary in XHTML), but can be used to generate a glossary
+within LaTeX documents.</text:p>
+<text:p text:style-name="Standard">For example, let&#8217;s have an entry for <text:span text:style-name="Source_20_Text">glossary</text:span>.<text:note text:id="" text:note-class="glossary"><text:note-body>
+<text:p text:style-name="Glossary">Glossary :</text:p><text:p text:style-name="Footnote">A section at the end &#8230;</text:p>
+</text:note-body>
+</text:note>
+ And what about
+ampersands?<text:note text:id="" text:note-class="glossary"><text:note-body>
+<text:p text:style-name="Glossary">&amp; :</text:p><text:p text:style-name="Footnote">A punctuation mark &#8230;</text:p>
+</text:note-body>
+</text:note>
+</text:p>
+<text:p text:style-name="Standard">Since we want the ampersand entry to be sorted with the a&#8217;s, and not with
+symbols, we put in the optional sort key <text:span text:style-name="Source_20_Text">ampersand</text:span> to control sorting.</text:p>
+<text:p text:style-name="Preformatted Text">[^glossary]: glossary: Glossary <text:line-break/><text:tab/>A section at the end ...<text:line-break/><text:line-break/>[^amp]: glossary: &amp; (ampersand)<text:line-break/><text:tab/>A punctuation mark ...<text:line-break/></text:p>
+<text:h text:outline-level="2"><text:bookmark text:name="mathsupport"/>Math Support<text:bookmark-end text:name="mathsupport"/></text:h>
+<text:p text:style-name="Standard">It&#8217;s pretty easy to include mathematical equations:</text:p>
+<text:p text:style-name="Standard"><text:span text:style-name="math">\[ {e}^{i\pi }+1=0 \]</text:span></text:p>
+<text:p text:style-name="Standard"><text:span text:style-name="math">\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \]</text:span></text:p>
+<text:p text:style-name="Standard">You can also include formulas within a sentence, such as
+<text:span text:style-name="math">\({x}^{2}+{y}^{2}=1\)</text:span>.</text:p>
+<text:h text:outline-level="1"><text:bookmark text:name="nowwhat"/>Now What?<text:bookmark-end text:name="nowwhat"/></text:h>
+<text:p text:style-name="Standard">Get out there and try it. Let me know what you think. Let me know what doesn&#8217;t
+work. Let me know what you think is missing.</text:p>
+<text:p text:style-name="Standard">In other words, help me make it better!</text:p>
+<text:p text:style-name="Standard">You can get more information on my web site:</text:p>
+<text:list><text:list-item>
+<text:p text:style-name="P2"><text:a xlink:type="simple" xlink:href="http://fletcherpenney.net/multimarkdown">http://fletcherpenney.net/multimarkdown</text:a></text:p></text:list-item>
+</text:list><text:p text:style-name="Standard">You can also:</text:p>
+<text:list><text:list-item>
+<text:p text:style-name="List">Email me:<text:line-break/><text:a xlink:type="simple" xlink:href="mailto:owner@fletcherpenney.net">owner@fletcherpenney.net</text:a></text:p>
+</text:list-item>
+<text:list-item>
+<text:p text:style-name="List">Join the MultiMarkdown discussion list:<text:line-break/><text:a xlink:type="simple" xlink:href="http://groups.google.com/group/multimarkdown">http://groups.google.com/group/multimarkdown</text:a></text:p>
+</text:list-item>
+<text:list-item>
+<text:p text:style-name="List">Join the Markdown discussion list:<text:line-break/><text:a xlink:type="simple" xlink:href="http://six.pairlist.net/mailman/listinfo/markdown-discuss">http://six.pairlist.net/mailman/listinfo/markdown-discuss</text:a></text:p>
+</text:list-item>
+</text:list></office:text>
+</office:body>
+</office:document>
