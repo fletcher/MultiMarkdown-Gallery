@@ -10,11 +10,11 @@ Recipient Address:	321 Main St
 phone:				(555) 555-5555  
 Date:				December 15, 2007  
 latex xslt:			custom-letterhead.xslt  
-latex input:		mmd-letterhead-begin-doc  
-latex mode:			memoir  
-latex footer:		mmd-letterhead-footer  
 black and white:	true  
 base header level:	2  
+latex mode:			memoir  
+latex footer:		mmd-letterhead-footer  
+latex input:		mmd-letterhead-begin-doc  
 
 
 To Whom It May Concern,
