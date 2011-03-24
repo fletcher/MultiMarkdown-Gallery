@@ -10,9 +10,9 @@ Some City, ST  54321}
 \def\phone{(555) 555-5555}
 \def\mydate{December 15, 2007}
 \def\latexxslt{custom-letterhead.xslt}
-\input{mmd-letterhead-begin-doc}
-\def\latexmode{memoir}
 \def\blackandwhite{true}
+\def\latexmode{memoir}
+\input{mmd-letterhead-begin-doc}
 To Whom It May Concern,
 
 This is a sample document to demonstrate the new letterhead XSLT for
@@ -22,29 +22,23 @@ Additionally, you can designate default return address information in your own
 stylesheet, so that you don't have to enter it in every document.
 
 The letterhead feature requires that you install the \texttt{mmd-letterhead.sty} file
-(available from \href{http://files.fletcherpenney.net/mmd-letterhead.zip}{http:\slash \slash files.fletcherpenney.net\slash mmd-letterhead.zip}). You
-install it the same way you install other LaTeX stylesheets. To use the
-envelope feature, you must install \texttt{mmd-envelope.sty}.
+(included with the LaTeX support file from
+\href{https://github.com/fletcher/peg-multimarkdown-latex-support}{https:\slash \slash github.com\slash fletcher\slash peg-multimarkdown-latex-support}). You install it
+the same way you install other LaTeX stylesheets. To use the envelope feature,
+you must install \texttt{mmd-envelope.sty} (also included).
 
-Additionally, this sample document uses the \texttt{custom-letterhead.xslt} XSLT
-stylesheet (included with MultiMarkdown), and the \texttt{fletcherpenney.sty} LaTeX
-stylesheet, which is available on my website
-(\href{http://fletcherpenney.net/XSLT_Files}{http:\slash \slash fletcherpenney.net\slash XSLT\_Files}) and also included with this sample
-document. These files add additional font information and the logotype in the
-upper left corner. Due to the font requirements, you must process this file
-with XeLaTeX, which is part of \href{http://www.tug.org/mactex/}{MacTeX}\footnote{\href{http://www.tug.org/mactex/}{http:\slash \slash www.tug.org\slash mactex\slash }}. To use
-this customization, you must have the \texttt{Garamond} and \texttt{Didot} fonts installed
-on your system.
+This document can be extended to include extra font information, a logo for
+the upper left corner, and additional information. Examine the
+\texttt{mmd-letterhead} LaTeX support files to learn more about how to customize the
+appearance of the output. If you change the font information, you may end up
+requiring the use of \texttt{xelatex}. Alternatively, you can keep things simple and
+use \texttt{pdflatex} to process the file.
 
 To use the letterhead and envelope features, simply be sure to include the
 appropriate metadata --- \texttt{Author}, \texttt{Address}, \texttt{Recipient}, \texttt{Recipient
 Address}. You can also optionally use \texttt{Email}, \texttt{Web}, \texttt{Phone}, \texttt{Fax},
-\texttt{Department}, \texttt{Position}, \texttt{Signature}, and \texttt{Date}. To save time, you can
-follow the example of the \texttt{custom-letterhead.xslt} and \texttt{custom-envelope.xslt}
-files to store default information to be used. You can also add a custom logo,
-typesetting, and a scanned signature, or whatever else you like. This sample
-demonstrates most of these features via the \texttt{custom-letterhead} and
-\texttt{custom-envelope} XSLT stylesheets.
+\texttt{Department}, \texttt{Position}, \texttt{Signature}, and \texttt{Date}. You can also add a custom
+logo, typesetting, and a scanned signature, or whatever else you like.
 
 In order to demonstrate some of the capabilities for letters produced with
 this system, I have included a familiar table, MultiMarkdown vs. Crayons (\autoref{multimarkdownvs.crayons}).
