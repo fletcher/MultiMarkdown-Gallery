@@ -2,10 +2,10 @@
 \def\mytitle{What is MultiMarkdown?}
 \def\subtitle{And why should you care?}
 \def\myauthor{Fletcher T. Penney}
-\def\affiliation{http:\slash \slash fletcherpenney.net\slash multimarkdown\slash }
-\def\copyright{2009 Fletcher T. Penney.  \\
+\def\affiliation{http:/\slash fletcherpenney.net\slash multimarkdown\slash }
+\def\copyright{2009-2011 Fletcher T. Penney.  \\
 This work is licensed under a Creative Commons License.  \\
-http:\slash \slash creativecommons.org\slash licenses\slash by-sa\slash 2.5\slash }
+http:/\slash creativecommons.org\slash licenses\slash by-sa\slash 2.5\slash }
 \def\latexmode{beamer}
 \def\bibliostyle{fletcher}
 \def\theme{keynote-gradient}
@@ -15,7 +15,7 @@ http:\slash \slash creativecommons.org\slash licenses\slash by-sa\slash 2.5\slas
 \frametitle{MultiMarkdown is a derivative of Markdown}
 \label{multimarkdownisaderivativeofmarkdown}
 
-\href{http://daringfireball.net/projects/markdown/}{Markdown}\footnote{\href{http://daringfireball.net/projects/markdown/}{http:\slash \slash daringfireball.net\slash projects\slash markdown\slash }} is a program and a
+\href{http://daringfireball.net/projects/markdown/}{Markdown}\footnote{\href{http://daringfireball.net/projects/markdown/}{http:/\slash daringfireball.net\slash projects\slash markdown\slash }} is a program and a
 syntax by John Gruber that allows you to easily convert plain text into HTML
 suitable for using on a web page.
 
@@ -27,7 +27,6 @@ suitable for using on a web page.
 \label{theoldwaywascomplicated}
 
 \begin{verbatim}
-
 <p>In order to create valid 
 <a href="http://en.wikipedia.org/wiki/HTML">HTML</a>, you 
 need properly coded syntax that can be cumbersome for 
@@ -41,7 +40,6 @@ creating lists:</p>
 <li>should be easy</li>
 <li>should not involve programming</li>
 </ul>
-
 \end{verbatim}
 
 
@@ -53,7 +51,6 @@ creating lists:</p>
 \label{thenewwayiseasier}
 
 \begin{verbatim}
-
 In order to create valid [HTML][], you need properly
 coded syntax that can be cumbersome for 
 "non-programmers" to write. Sometimes, you just want
@@ -65,7 +62,6 @@ syntax. Additionally, for example, creating lists:
 * should not involve programming
 
 [HTML]: http://en.wikipedia.org/wiki/HTML
-
 \end{verbatim}
 
 
@@ -82,7 +78,7 @@ publishable as-is, as plain text, without looking like it's been marked up
 with tags or formatting instructions. While Markdown's syntax has been
 influenced by several existing text-to-HTML filters, the single biggest source
 of inspiration for Markdown's syntax is the format of plain text email.
-~\cite{Gruber}
+~\citep{Gruber}
 
 \end{frame}
 
@@ -116,7 +112,7 @@ programmers.
 
 \item internal cross-references
 
-\item ASCIIMathML support
+\item math support
 
 \item glossary entries
 
@@ -134,10 +130,10 @@ programmers.
 \label{mmdalsoaddssomethingelse}
 
 \begin{itemize}
-\item Outside of the actual syntax, MMD supports the use of
- \href{http://en.wikipedia.org/wiki/XSL_Transformations}{XSLT}\footnote{\href{http://en.wikipedia.org/wiki/XSL_Transformations}{http:\slash \slash en.wikipedia.org\slash wiki\slash XSL\_Transformations}} to convert the
- XHTML output into something else, e.g.
- \href{http://en.wikipedia.org/wiki/LaTeX}{LaTeX}\footnote{\href{http://en.wikipedia.org/wiki/LaTeX}{http:\slash \slash en.wikipedia.org\slash wiki\slash LaTeX}}.
+\item Outside of the actual syntax, MMD supports multiple output formats,
+ including HTML, \href{http://en.wikipedia.org/wiki/LaTeX}{LaTeX}\footnote{\href{http://en.wikipedia.org/wiki/LaTeX}{http:/\slash en.wikipedia.org\slash wiki\slash LaTeX}},
+ \href{http://en.wikipedia.org/wiki/OpenDocument}{OpenDocument}\footnote{\href{http://en.wikipedia.org/wiki/OpenDocument}{http:/\slash en.wikipedia.org\slash wiki\slash OpenDocument}}, and
+ \href{http://en.wikipedia.org/wiki/OPML}{OPML}\footnote{\href{http://en.wikipedia.org/wiki/OPML}{http:/\slash en.wikipedia.org\slash wiki\slash OPML}}
 
 \item This allows you to use the same markup language (MultiMarkdown) to create a
  high quality pdf (article, book, or presentation like this one) without any
@@ -157,7 +153,8 @@ programmers.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{MMDTree.pdf}
+\includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{OPML-MMD-Map.pdf}
+\caption{Example MultiMarkdown output formats}
 \label{}
 \end{figure}
 
@@ -183,16 +180,14 @@ take.
 \frametitle{ASCIIMathML --- it's like Markdown for mathematics}
 \label{asciimathml---itslikemarkdownformathematics}
 
-Built into MultiMarkdown is support for
-\href{http://asciimathml.sourceforge.net/}{ASCIIMathML}\footnote{\href{http://asciimathml.sourceforge.net/}{http:\slash \slash asciimathml.sourceforge.net\slash }} --- a tool that allows you
-to write mathematical equations in plain text, yet produce high quality
-output. It can be used for web pages (if your browser supports MathML), or for
-LaTeX.
+Built into MultiMarkdown is support for mathematical equations. You write
+using LaTeX syntax. When you output to HTML, you can use
+\href{http://www.mathjax.org/}{MathJax}\footnote{\href{http://www.mathjax.org/}{http:/\slash www.mathjax.org\slash }} to properly display the math. If you output
+to LaTeX, it is display automatically. There is not currently an approach to
+display math using OpenDocument
 
 \begin{verbatim}
-
 \\[ {e}^{i\pi }+1=0 \\]
-
 \end{verbatim}
 
 
@@ -208,9 +203,7 @@ becomes
 \label{imagesarejustaseasy}
 
 \begin{verbatim}
-
 ![Nautilus Star](Nautilus_Star.png)
-
 \end{verbatim}
 
 
@@ -226,6 +219,7 @@ becomes{\ldots}
 \begin{figure}[htbp]
 \centering
 \includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{Nautilus_Star.png}
+\caption{Nautilus Star}
 \label{}
 \end{figure}
 
@@ -238,9 +232,9 @@ becomes{\ldots}
 \label{supportforabibliographyisalsoincluded}
 
 \begin{itemize}
-\item MultiMarkdown has support for \href{http://www.bibtex.org/}{BibTeX}\footnote{\href{http://www.bibtex.org/}{http:\slash \slash www.bibtex.org\slash }}, or
+\item MultiMarkdown has support for \href{http://www.bibtex.org/}{BibTeX}\footnote{\href{http://www.bibtex.org/}{http:/\slash www.bibtex.org\slash }}, or
  for just including your own citations, so that you can back up your
- arguments.~\cite[p. 42]{fake}
+ arguments.~\citep[p. 42]{fake}
 
 \item The citation above links to the corresponding entry in the bibliography.
 
@@ -254,19 +248,17 @@ becomes{\ldots}
 \label{installationiseasy}
 
 \begin{itemize}
-\item Download the MultiMarkdown software.
+\item Download the MultiMarkdown software --- there are installers for Mac OS X
+ and Windows, and instructions for compiling in Linux.
 
 \item If you want to use LaTeX, install a version appropriate for your operating
  system.
 
-\item If you're running Windows you will need to install Perl. If you want to use
- LaTeX or the more advanced XHTML XSLT files, you need to install xsltproc.
- These are included in Mac OS X, and default installs of most Linux
- distributions.
+\item OpenDocument output doesn't require any special software, but will require
+ an application capable of opening the document (e.g. OpenOffice.org,
+ LibreOffice, etc.)
 
 \end{itemize}
-
-More complete instructions are available at the \href{http://fletcherpenney.net/mmd/users_guide/quickstart_guide_to_multimarkd/}{MultiMarkdown site}\footnote{\href{http://fletcherpenney.net/mmd/users_guide/quickstart_guide_to_multimarkd/}{http:\slash \slash fletcherpenney.net\slash mmd\slash users\_guide\slash quickstart\_guide\_to\_multimarkd\slash }}.
 
 \end{frame}
 
@@ -282,7 +274,7 @@ More complete instructions are available at the \href{http://fletcherpenney.net/
  text file (not a .doc, RTF, or other ``rich'' format).
 
 \item Some applications include built-in support for MultiMarkdown in various
- ways. There's a \href{http://fletcher.github.com/markdown.tmbundle/}{bundle}\footnote{\href{http://fletcher.github.com/markdown.tmbundle/}{http:\slash \slash fletcher.github.com\slash markdown.tmbundle\slash }} for \href{http://macromates.com/}{TextMate}\footnote{\href{http://macromates.com/}{http:\slash \slash macromates.com\slash }}, and \href{http://www.literatureandlatte.com/scrivener.html}{Scrivener}\footnote{\href{http://www.literatureandlatte.com/scrivener.html}{http:\slash \slash www.literatureandlatte.com\slash scrivener.html}} includes
+ ways. There's a \href{http://fletcher.github.com/markdown.tmbundle/}{bundle}\footnote{\href{http://fletcher.github.com/markdown.tmbundle/}{http:/\slash fletcher.github.com\slash markdown.tmbundle\slash }} for \href{http://macromates.com/}{TextMate}\footnote{\href{http://macromates.com/}{http:/\slash macromates.com\slash }}, and \href{http://www.literatureandlatte.com/scrivener.html}{Scrivener}\footnote{\href{http://www.literatureandlatte.com/scrivener.html}{http:/\slash www.literatureandlatte.com\slash scrivener.html}} includes
  MultiMarkdown support.
 
 \end{itemize}
@@ -312,9 +304,12 @@ documents without learning all of the complicated LaTeX commands and markup.
 If you're using LaTeX, and have the proper software installed it's easy:
 
 \begin{enumerate}
-\item Type \texttt{mmd2pdf filename.txt}
+\item Type \texttt{mmd2tex filename.txt}
 
-\item There is no step 2
+\item User \texttt{pdflatex}, \texttt{xelatex}, or your preferred tool to compile the LaTeX
+ file into a pdf.
+
+\item There is no step 3
 
 \end{enumerate}
 
@@ -326,11 +321,11 @@ If you're using LaTeX, and have the proper software installed it's easy:
 \label{wheretolearnmore}
 
 \begin{itemize}
-\item \href{http://fletcherpenney.net/multimarkdown/}{http:\slash \slash fletcherpenney.net\slash multimarkdown\slash }
+\item \href{http://fletcherpenney.net/multimarkdown/}{http:/\slash fletcherpenney.net\slash multimarkdown\slash }
 
-\item \href{http://groups.google.com/group/multimarkdown/}{http:\slash \slash groups.google.com\slash group\slash multimarkdown\slash }
+\item \href{http://groups.google.com/group/multimarkdown/}{http:/\slash groups.google.com\slash group\slash multimarkdown\slash }
 
-\item \href{http://fletcher.github.com/MultiMarkdown-Gallery/}{http:\slash \slash fletcher.github.com\slash MultiMarkdown-Gallery\slash }
+\item \href{http://fletcher.github.com/MultiMarkdown-Gallery/}{http:/\slash fletcher.github.com\slash MultiMarkdown-Gallery\slash }
 
 \end{itemize}
 
@@ -342,7 +337,7 @@ If you're using LaTeX, and have the proper software installed it's easy:
 \label{bytheway}
 
 This presentation was, of course, written in MultiMarkdown and processed by
-typing \texttt{mmd2pdf what\_is\_mmd.txt}.
+typing \texttt{mmd2tex what\_is\_mmd.txt}.
 
 It uses the \texttt{beamer} XSLT file, and the \texttt{keynote-gradient} beamer theme.
 
@@ -354,7 +349,7 @@ It uses the \texttt{beamer} XSLT file, and the \texttt{keynote-gradient} beamer 
 \def\newblock{}
 \begin{thebibliography}{0}
 \bibitem{Gruber}
-John Gruber. Daring Fireball: Markdown. [Cited January 2006]. Available from \href{http://daringfireball.net/projects/markdown/}{http:\slash \slash daringfireball.net\slash projects\slash markdown\slash }.
+John Gruber. Daring Fireball: Markdown. [Cited January 2006]. Available from \href{http://daringfireball.net/projects/markdown/}{http:/\slash daringfireball.net\slash projects\slash markdown\slash }.
 
 
 \bibitem{fake}

@@ -7,7 +7,7 @@
                 <PageBreakBefore>Yes</PageBreakBefore>
             </MetaData>
             <Children>
-                <BinderItem ID="38" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                <BinderItem ID="54" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                     <Title>Meta-Data</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -19,7 +19,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="39" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                <BinderItem ID="55" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -31,7 +31,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="40" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                <BinderItem ID="56" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                     <Title>How to Use This Document</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -43,7 +43,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="41" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                <BinderItem ID="57" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                     <Title>Where Can I Get a Copy?</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -55,7 +55,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="42" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                <BinderItem ID="58" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                     <Title>So, What Can This Document Demonstrate?</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -67,7 +67,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="43" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                        <BinderItem ID="59" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                             <Title>Metadata</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -79,7 +79,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="44" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                        <BinderItem ID="60" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                             <Title>Structure</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -91,7 +91,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="45" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                        <BinderItem ID="61" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                             <Title>Footnotes</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -103,7 +103,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="46" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                        <BinderItem ID="62" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                             <Title>Tables</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -115,7 +115,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="47" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                        <BinderItem ID="63" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                             <Title>Typographical conventions</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -127,7 +127,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="48" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                        <BinderItem ID="64" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                             <Title>Image Support</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -139,7 +139,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="49" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                        <BinderItem ID="65" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                             <Title>Bibliography Support</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -151,7 +151,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="50" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                        <BinderItem ID="66" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                             <Title>Glossary Support</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -163,7 +163,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="51" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                        <BinderItem ID="67" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                             <Title>Math Support</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -177,7 +177,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="52" Type="Text" Created="2011-02-25 11:54:17 -0500" Modified="2011-02-25 11:54:17 -0500">
+                <BinderItem ID="68" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
                     <Title>Now What?</Title>
                     <MetaData>
                         <LabelID>0</LabelID>

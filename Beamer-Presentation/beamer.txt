@@ -95,7 +95,7 @@ You can use the following metadata:
 
 ### Just as a demo ###
 
-![Nautilus Star](Nautilus_Star.png)
+![](Nautilus_Star.png)
 
 
 ### Another demo ###

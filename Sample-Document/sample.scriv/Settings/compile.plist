@@ -184,7 +184,7 @@ p.shot {text-align:left; text-indent:0; margin: 12pt 0pt 0pt 0pt; text-transform
 			<key>SCRIncludeTextKey</key>
 			<true/>
 			<key>SCRIncludeTitlesKey</key>
-			<false/>
+			<true/>
 			<key>SCRMetaDataAttributesKey</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAxOU0RpY3Rpb25hcnkAhIQI
@@ -301,7 +301,7 @@ p.shot {text-align:left; text-indent:0; margin: 12pt 0pt 0pt 0pt; text-transform
 	<key>SCRCompileFootnotesStyleKey</key>
 	<integer>0</integer>
 	<key>SCRCompileFormatKey</key>
-	<integer>31</integer>
+	<integer>30</integer>
 	<key>SCRCompileGroupFootnotesBeforePageBreakTypeKey</key>
 	<integer>1</integer>
 	<key>SCRCompileGroupFootnotesBeforePageBreaksKey</key>
@@ -478,7 +478,7 @@ p.shot {text-align:left; text-indent:0; margin: 12pt 0pt 0pt 0pt; text-transform
 			<key>SCRIncludeTextKey</key>
 			<true/>
 			<key>SCRIncludeTitlesKey</key>
-			<false/>
+			<true/>
 			<key>SCRMetaDataAttributesKey</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAxOU0RpY3Rpb25hcnkAhIQI
@@ -596,7 +596,7 @@ p.shot {text-align:left; text-indent:0; margin: 12pt 0pt 0pt 0pt; text-transform
 			<key>SCRIncludeTextKey</key>
 			<true/>
 			<key>SCRIncludeTitlesKey</key>
-			<false/>
+			<true/>
 			<key>SCRMetaDataAttributesKey</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAxOU0RpY3Rpb25hcnkAhIQI

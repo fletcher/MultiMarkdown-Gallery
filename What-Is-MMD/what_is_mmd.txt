@@ -3,7 +3,7 @@ Title:				What is MultiMarkdown?
 Subtitle:			And why should you care? 
 Author:				Fletcher T. Penney  
 Affiliation:		http://fletcherpenney.net/multimarkdown/
-Copyright:			2009 Fletcher T. Penney.  
+Copyright:			2009-2011 Fletcher T. Penney.  
 					This work is licensed under a Creative Commons License.  
 					http://creativecommons.org/licenses/by-sa/2.5/
 base header level:	3  
@@ -19,6 +19,7 @@ latex footer:		mmd-beamer-footer
 [Markdown](http://daringfireball.net/projects/markdown/)  is a  program and  a
 syntax by John Gruber  that allows you to easily convert  plain text into HTML
 suitable for using on a web page.
+
 
 # The old way was complicated #
 
@@ -51,6 +52,7 @@ suitable for using on a web page.
 	
 	[HTML]: http://en.wikipedia.org/wiki/HTML
 
+
 # Markdown is designed for people #
 
 The overriding design  goal for Markdown's formatting syntax is  to make it as
@@ -63,6 +65,7 @@ of  inspiration for  Markdown's  syntax is  the format  of  plain text  email.
 
 
 [#Gruber]: John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. Available from <http://daringfireball.net/projects/markdown/>.
+
 
 # But Markdown wasn't complete #
 
@@ -80,7 +83,7 @@ programmers.
 * image attributes
 * metadata
 * internal cross-references
-* ASCIIMathML support
+* math support
 * glossary entries
 * definition lists
 * and more...
@@ -88,10 +91,10 @@ programmers.
 
 # MMD also adds something else... #
 
-* Outside of the actual syntax, MMD supports the use of
-  [XSLT](http://en.wikipedia.org/wiki/XSL_Transformations) to convert the
-  XHTML output into something else, e.g.
-  [LaTeX](http://en.wikipedia.org/wiki/LaTeX).
+* Outside of the actual syntax, MMD supports multiple output formats,
+  including HTML, [LaTeX](http://en.wikipedia.org/wiki/LaTeX),
+  [OpenDocument](http://en.wikipedia.org/wiki/OpenDocument), and
+  [OPML](http://en.wikipedia.org/wiki/OPML)
 
 * This allows you to use the same markup language (MultiMarkdown) to create a
   high quality pdf (article, book, or presentation like this one) without any
@@ -100,10 +103,11 @@ programmers.
 * Most importantly, you don't have to know how this works, or even what it
   the LaTeX commands mean --- just have the software installed.
 
+
 # So, one text file becomes multiple final documents #
 
 
-![MMD Tree](MMDTree.pdf)
+![Example MultiMarkdown output formats](OPML-MMD-Map.pdf)
 
 
 # The goal is to separate content from formatting #
@@ -115,13 +119,14 @@ paragraphs are properly separated, your footnotes  are in order, and that your
 tables line up  --- regardless of the  final format you want  your document to
 take.
 
+
 # ASCIIMathML --- it's like Markdown for mathematics
 
-Built         into         MultiMarkdown        is         support         for
-[ASCIIMathML](http://asciimathml.sourceforge.net/) --- a  tool that allows you
-to  write mathematical  equations  in  plain text,  yet  produce high  quality
-output. It can be used for web pages (if your browser supports MathML), or for
-LaTeX.
+Built  into MultiMarkdown  is support  for mathematical  equations. You  write
+using   LaTeX   syntax.    When   you   output   to   HTML,    you   can   use
+[MathJax](http://www.mathjax.org/) to properly display the math. If you output
+to LaTeX, it  is display automatically. There is not  currently an approach to
+display math using OpenDocument
 
 	\\[ {e}^{i\pi }+1=0 \\]
 
@@ -136,6 +141,7 @@ becomes
 	![Nautilus Star](Nautilus_Star.png)
 
 becomes...
+
 
 # Images are just as easy #
 
@@ -154,20 +160,18 @@ becomes...
 [#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.
 
 
-
 # Installation is easy #
 
-* Download the MultiMarkdown software.
+* Download the MultiMarkdown software --- there are installers for Mac OS X
+  and Windows, and instructions for compiling in Linux.
 
 * If you want to use LaTeX, install a version appropriate for your operating
   system.
 
-* If you're running Windows you will need to install Perl. If you want to use
-  LaTeX or the more advanced XHTML XSLT files, you need to install xsltproc.
-  These are included in Mac OS X, and default installs of most Linux
-  distributions.
+* OpenDocument output doesn't require any special software, but will require
+  an application capable of opening the document (e.g. OpenOffice.org,
+  LibreOffice, etc.)
 
-More complete instructions are available at the [MultiMarkdown site](http://fletcherpenney.net/mmd/users_guide/quickstart_guide_to_multimarkd/).
 
 # How do I create a MultiMarkdown document? #
 
@@ -195,13 +199,17 @@ specific needs. If you  want high quality typography, LaTeX is  the way to go.
 If you  already know what  LaTeX is, then  MultiMarkdown allows you  to create
 documents without learning all of the complicated LaTeX commands and markup.
 
+
 # How do I create a fancy PDF? #
 
 If you're using LaTeX, and have the proper software installed it's easy:
 
-1. Type `mmd2pdf filename.txt`
+1. Type `mmd2tex filename.txt`
 
-2. There is no step 2
+2. User `pdflatex`, `xelatex`, or your preferred tool to compile the LaTeX 
+   file into a pdf.
+
+3. There is no step 3
 
 
 # Where to learn more #
@@ -214,6 +222,6 @@ If you're using LaTeX, and have the proper software installed it's easy:
 # By the way... #
 
 This presentation  was, of course,  written in MultiMarkdown and  processed by
-typing `mmd2pdf what_is_mmd.txt`.
+typing `mmd2tex what_is_mmd.txt`.
 
 It uses the `beamer` XSLT file, and the `keynote-gradient` beamer theme.

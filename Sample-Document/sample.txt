@@ -10,6 +10,7 @@ xhtml header:       <script type="text/javascript"
 latex input:        mmd-article-begin-doc  
 latex footer:       mmd-memoir-footer  
 
+
 # Introduction #
 
 As I  add increasing numbers  of features to  MultiMarkdown, I decided  it was
@@ -72,6 +73,7 @@ All files were generated automatically from the MultiMarkdown source document.
 
 # So, What Can This Document Demonstrate? #
 
+
 ## Metadata ##
 
 First, take  a look  at the  overall structure  of the  document. At  the very
@@ -127,13 +129,14 @@ MultiMarkdown Syntax Guide.[^somesamplefootnote]
 
 [^somesamplefootnote]: Here is the text of the footnote itself.
 
+
 ## Tables ##
 
 Tables  can be  quite useful  for  showing data  in  a meaningful  way. As  an
 example, here is a table comparing [MultiMarkdown vs. Crayons][].
 
 
-[MultiMarkdown vs. Crayons]  
+[This is a caption with *italics*][MultiMarkdown vs. Crayons]  
 | Features                          | MultiMarkdown |  Crayons |  
 ----------------------------------- | :-----------: | :------: |  
 Melts in warm places                |       No      |    Yes   |  
@@ -146,7 +149,6 @@ Minimum markup for maximum quality? |      Yes      |    No    |
 
 
 [^parties]: I guess it depends on what kind of parties you go to...
-
 
 
 ## Typographical conventions ##
@@ -172,9 +174,9 @@ As   an  example,   here  is   an  image   from  my   website  ---   [Nautilus
 Star](#nautilusstar). If you  have a local copy of the  image, you can include
 the image in a pdf.
 
-![Nautilus Star][]
+![This is a **bolded** caption][Nautilus Star]
 
-[Nautilus Star]: Nautilus_Star.png "Nautilus Star" width=307px height=250px
+[Nautilus Star]: Nautilus_Star.png "Nautilus Star" width="3in" height="2.4in"
 
 
 ## Bibliography Support ##
@@ -226,6 +228,7 @@ It's pretty easy to include mathematical equations:
 
 You can also include formulas within a sentence, such as
 \\({x}^{2}+{y}^{2}=1\\).
+
 
 # Now What? #
 

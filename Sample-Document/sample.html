@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta name="latexinput" content="mmd-article-header"/>
@@ -121,47 +121,49 @@ MultiMarkdown Syntax Guide.<a href="#fn:3" id="fnref:3" title="see footnote" cla
 example, here is a table comparing <a href="#multimarkdownvs.crayons">MultiMarkdown vs. Crayons</a>.</p>
 
 <table>
-<caption id="multimarkdownvs.crayons">MultiMarkdown vs. Crayons</caption>
-<col align="left"/>
-<col align="center"/>
-<col align="center"/>
+<caption id="multimarkdownvs.crayons">This is a caption with <em>italics</em></caption>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
 
 <thead>
 <tr>
-	<th align="left">Features</th>
-	<th align="center">MultiMarkdown</th>
-	<th align="center">Crayons</th>
+	<th style="text-align:left;">Features</th>
+	<th style="text-align:center;">MultiMarkdown</th>
+	<th style="text-align:center;">Crayons</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-	<td align="left">Melts in warm places</td>
-	<td align="center">No</td>
-	<td align="center">Yes</td>
+	<td style="text-align:left;">Melts in warm places</td>
+	<td style="text-align:center;">No</td>
+	<td style="text-align:center;">Yes</td>
 </tr>
 <tr>
-	<td align="left">Mistakes can be easily fixed</td>
-	<td align="center">Yes</td>
-	<td align="center">No</td>
+	<td style="text-align:left;">Mistakes can be easily fixed</td>
+	<td style="text-align:center;">Yes</td>
+	<td style="text-align:center;">No</td>
 </tr>
 <tr>
-	<td align="left">Easy to copy documents for friends</td>
-	<td align="center">Yes</td>
-	<td align="center">No</td>
+	<td style="text-align:left;">Easy to copy documents for friends</td>
+	<td style="text-align:center;">Yes</td>
+	<td style="text-align:center;">No</td>
 </tr>
 <tr>
-	<td align="left">Fun at parties</td>
-	<td align="center">No<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></td>
-	<td align="center">Why not?</td>
+	<td style="text-align:left;">Fun at parties</td>
+	<td style="text-align:center;">No<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></td>
+	<td style="text-align:center;">Why not?</td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
-	<td align="left">Minimum markup for maximum quality?</td>
-	<td align="center">Yes</td>
-	<td align="center">No</td>
+	<td style="text-align:left;">Minimum markup for maximum quality?</td>
+	<td style="text-align:center;">Yes</td>
+	<td style="text-align:center;">No</td>
 </tr>
 </tbody>
 </table>
@@ -184,7 +186,11 @@ attributes.</p>
 Star</a>. If you have a local copy of the image, you can include
 the image in a pdf.</p>
 
-<p><img src="Nautilus_Star.png" id="nautilusstar" alt="Nautilus Star" title="Nautilus Star" width="307px" height="250px" /></p>
+<figure>
+<img src="Nautilus_Star.png" alt="This is a bolded caption" id="nautilusstar" title="Nautilus Star" style="height:2.4in;width:3in;" />
+<figcaption>This is a <strong>bolded</strong> caption</figcaption></figure>
+
+
 
 <h3 id="bibliographysupport">Bibliography Support</h3>
 
