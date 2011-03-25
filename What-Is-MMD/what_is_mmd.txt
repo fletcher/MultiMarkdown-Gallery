@@ -206,7 +206,7 @@ If you're using LaTeX, and have the proper software installed it's easy:
 
 1. Type `mmd2tex filename.txt`
 
-2. User `pdflatex`, `xelatex`, or your preferred tool to compile the LaTeX 
+2. Use `pdflatex`, `xelatex`, or your preferred tool to compile the LaTeX 
    file into a pdf.
 
 3. There is no step 3
