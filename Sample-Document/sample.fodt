@@ -142,7 +142,8 @@
 </text:list-style>
 <office:meta>
 <dc:title>Sample MultiMarkdown Document</dc:title>
-<meta:keyword>keywords</meta:keyword>
+<meta:keyword>MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF</meta:keyword>
+<meta:user-defined meta:name="copyright">2011 Fletcher T. Penney.  <text:line-break/>This work is licensed under a Creative Commons License.  <text:line-break/>http://creativecommons.org/licenses/by-nc-sa/3.0/</meta:user-defined>
 </office:meta>
 <office:body>
 <office:text>

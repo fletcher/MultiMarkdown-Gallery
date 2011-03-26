@@ -1,14 +1,17 @@
-latex input:        mmd-article-header  
-Title:              Sample MultiMarkdown Document  
-Base Header Level:  2  
-latex mode:         memoir  
-Keywords:           MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,   
-CSS:                http://fletcherpenney.net/css/document.css  
-xhtml header:       <script type="text/javascript" 
-                    src="http://helium.local/~fletcher/mathjax/MathJax.js">
-                    </script>
-latex input:        mmd-article-begin-doc  
-latex footer:       mmd-memoir-footer  
+latex input:		mmd-article-header  
+Title:				Sample MultiMarkdown Document  
+Base Header Level:	2  
+latex mode:			memoir  
+Keywords:			MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF   
+CSS:				http://fletcherpenney.net/css/document.css  
+xhtml header:		<script type="text/javascript" 
+					src="http://helium.local/~fletcher/mathjax/MathJax.js">
+					</script>
+copyright:			2011 Fletcher T. Penney.  
+					This work is licensed under a Creative Commons License.  
+					http://creativecommons.org/licenses/by-nc-sa/3.0/  
+latex input:		mmd-article-begin-doc  
+latex footer:		mmd-memoir-footer  
 
 
 # Introduction #
