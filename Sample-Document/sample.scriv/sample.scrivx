@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Version="1.0" Creator="SCRMAC-2.0.4-7817">
+<ScrivenerProject Version="1.0" Creator="SCRMAC-2.0.5-9496">
     <Binder>
         <BinderItem ID="0" Type="DraftFolder" Created="2010-01-10 16:09:41 -0500" Modified="2010-01-10 16:09:41 -0500">
             <Title>Draft</Title>
@@ -7,7 +7,7 @@
                 <PageBreakBefore>Yes</PageBreakBefore>
             </MetaData>
             <Children>
-                <BinderItem ID="54" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                <BinderItem ID="70" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                     <Title>Meta-Data</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -19,7 +19,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="55" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                <BinderItem ID="71" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -31,7 +31,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="56" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                <BinderItem ID="72" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                     <Title>How to Use This Document</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -43,7 +43,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="57" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                <BinderItem ID="73" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                     <Title>Where Can I Get a Copy?</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -55,7 +55,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="58" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                <BinderItem ID="74" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                     <Title>So, What Can This Document Demonstrate?</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -67,7 +67,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="59" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                        <BinderItem ID="75" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                             <Title>Metadata</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -79,7 +79,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="60" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                        <BinderItem ID="76" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                             <Title>Structure</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -91,7 +91,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="61" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                        <BinderItem ID="77" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                             <Title>Footnotes</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -103,7 +103,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="62" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                        <BinderItem ID="78" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                             <Title>Tables</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -115,7 +115,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="63" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                        <BinderItem ID="79" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                             <Title>Typographical conventions</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -127,7 +127,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="64" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                        <BinderItem ID="80" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                             <Title>Image Support</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -139,7 +139,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="65" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                        <BinderItem ID="81" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                             <Title>Bibliography Support</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -151,7 +151,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="66" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                        <BinderItem ID="82" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                             <Title>Glossary Support</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -163,7 +163,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="67" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                        <BinderItem ID="83" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                             <Title>Math Support</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -177,7 +177,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="68" Type="Text" Created="2011-03-25 10:59:42 -0400" Modified="2011-03-25 10:59:42 -0400">
+                <BinderItem ID="84" Type="Text" Created="2011-03-27 09:19:46 -0400" Modified="2011-03-27 09:19:46 -0400">
                     <Title>Now What?</Title>
                     <MetaData>
                         <LabelID>0</LabelID>
@@ -253,8 +253,9 @@
         </StatusItems>
     </StatusSettings>
     <ProjectTargets Notify="No">
-        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes">0</SessionTarget>
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2011-03-27 09:19:25 -0400" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetDaily="No" DeterminedFromDeadline="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2011-03-27 09:20:07 -0400"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>

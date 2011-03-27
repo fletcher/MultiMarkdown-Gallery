@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="62">
+        <Document ID="77">
+            <Title>Footnotes</Title>
+            <Text>Footnotes are  very easy to  implement in  MultiMarkdown, as described  in the
+MultiMarkdown Syntax Guide.[^somesamplefootnote]
+
+[^somesamplefootnote]: Here is the text of the footnote itself.</Text>
+        </Document>
+        <Document ID="78">
             <Title>Tables</Title>
             <Text>Tables  can be  quite useful  for  showing data  in  a meaningful  way. As  an
 example, here is a table comparing [MultiMarkdown vs. Crayons][].
@@ -21,7 +28,37 @@ Minimum markup for maximum quality? |      Yes      |    No    |
 
 [^parties]: I guess it depends on what kind of parties you go to...</Text>
         </Document>
-        <Document ID="55">
+        <Document ID="70">
+            <Title>Meta-Data</Title>
+            <Text>latex input:		mmd-article-header  
+Title:				Sample MultiMarkdown Document  
+Base Header Level:	2  
+latex mode:			memoir  
+Keywords:			MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF   
+CSS:				http://fletcherpenney.net/css/document.css  
+xhtml header:		&lt;script type="text/javascript" 
+					src="http://helium.local/~fletcher/mathjax/MathJax.js">
+					&lt;/script>
+copyright:			2011 Fletcher T. Penney.  
+					This work is licensed under a Creative Commons License.  
+					http://creativecommons.org/licenses/by-nc-sa/3.0/  
+latex input:		mmd-article-begin-doc  
+latex footer:		mmd-memoir-footer  
+</Text>
+        </Document>
+        <Document ID="79">
+            <Title>Typographical conventions</Title>
+            <Text>By incorporating John Gruber's [SmartyPants][] program into your workflow, you
+can generate more  "correct" typographic punction in your XHTML  pages, and in
+your  LaTeX source  if  you are  generating PDF's---this  includes  en and  em
+dashes, and ellipses....
+
+Very nice when you want to focus on writing, not grammar.
+
+
+[SmartyPants]: http://daringfireball.net/projects/smartypants/</Text>
+        </Document>
+        <Document ID="71">
             <Title>Introduction</Title>
             <Text>As I  add increasing numbers  of features to  MultiMarkdown, I decided  it was
 time to create  a sample document to  show them off. Many of  the features are
@@ -35,27 +72,15 @@ describe, most of the features of MultiMarkdown.
 [MultiMarkdown User's Guide]: http://fletcherpenney.net/mmd/users_guide/
   "MultiMarkdown User's Guide"</Text>
         </Document>
-        <Document ID="63">
-            <Title>Typographical conventions</Title>
-            <Text>By incorporating John Gruber's [SmartyPants][] program into your workflow, you
-can generate more  "correct" typographic punction in your XHTML  pages, and in
-your  LaTeX source  if  you are  generating PDF's---this  includes  en and  em
-dashes, and ellipses....
-
-Very nice when you want to focus on writing, not grammar.
-
-
-[SmartyPants]: http://daringfireball.net/projects/smartypants/</Text>
-        </Document>
-        <Document ID="56">
+        <Document ID="72">
             <Title>How to Use This Document</Title>
             <Text>I suggest comparing  the raw text source with the  various final outputs (e.g.
-PDF, XHTML, LaTeX, RTF)  in order to see what can  be accomplished. There will
-be  many similarities  between output  formats,  but also  a few  differences.
-Tables will  end up in  different places. Paragraphs  won't break in  the same
-way.  But these  differences are  superficial and  are a  result of  trying to
-optimize each format, without regard to identical output across formats (which
-would be virtually impossible).
+HTML, LaTeX,  PDF, OpenDocument)  in order  to see  what can  be accomplished.
+There  will be  many  similarities  between output  formats,  but  also a  few
+differences. Tables will end up in different places. Paragraphs won't break in
+the same way. But these differences are superficial and are a result of trying
+to optimize  each format,  without regard to  identical output  across formats
+(which would be virtually impossible).
 
 Remember, the main goal of Markdown\MultiMarkdown  is to allow you to create a
 document in  plain text,  with minimal  distraction from  markup, that  can be
@@ -73,7 +98,7 @@ email.[#Gruber]
 [#Gruber]: John Gruber.  Daring Fireball: Markdown. [Cited January 2006]. 
   Available from &lt;http://daringfireball.net/projects/markdown/>.</Text>
         </Document>
-        <Document ID="64">
+        <Document ID="80">
             <Title>Image Support</Title>
             <Text>If you choose to incorporate images in your documents, this can be easily done
 as well. MultiMarkdown  makes it easier to link to  images and include various
@@ -87,7 +112,7 @@ the image in a pdf.
 
 [Nautilus Star]: Nautilus_Star.png "Nautilus Star" width="3in" height="2.4in"</Text>
         </Document>
-        <Document ID="57">
+        <Document ID="73">
             <Title>Where Can I Get a Copy?</Title>
             <Text>You can download a zipfile containing multiple formats of this document:
 
@@ -96,15 +121,18 @@ the image in a pdf.
 
 This file includes:
 
-*	The Scrivener source file
 *	A plain text file in MultiMarkdown format
-*	An XHTML file
+*	A Scrivener file
+*	An HTML file
 *	A PDF
-*	An RTF
+*	An OpenDocument file
+*	An OPML
+*	A LaTeX file
+*	And the included images
 
 All files were generated automatically from the MultiMarkdown source document.</Text>
         </Document>
-        <Document ID="65">
+        <Document ID="81">
             <Title>Bibliography Support</Title>
             <Text>MultiMarkdown offers  several mechanisms  for managing bibliographies.  It has
 built-in  support   for  basic   citation  and  bibliography   management  and
@@ -115,10 +143,10 @@ across.[p. 42][#fake]
 
 [#fake]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.</Text>
         </Document>
-        <Document ID="58">
+        <Document ID="74">
             <Title>So, What Can This Document Demonstrate?</Title>
         </Document>
-        <Document ID="66">
+        <Document ID="82">
             <Title>Glossary Support</Title>
             <Text>MultiMarkdown  has  a  special  format for  footnotes  that  should  represent
 glossary terms. This  doesn't make much difference in XHTML  (because there is
@@ -143,7 +171,7 @@ symbols, we put in the optional sort key `ampersand` to control sorting.
 [^amp]: glossary: &amp; (ampersand)
 	A punctuation mark ...</Text>
         </Document>
-        <Document ID="59">
+        <Document ID="75">
             <Title>Metadata</Title>
             <Text>First, take  a look  at the  overall structure  of the  document. At  the very
 beginning  is  metadata,  including   a  title,  author,  keywords,  copyright
@@ -174,7 +202,7 @@ include the `&lt;html>`, `&lt;head>`, and  `&lt;body>` tags. Most browsers will 
 it  properly, but  it is  not a  complete XHTML  document. Without  a `&lt;head>`
 section there is nowhere to put metadata(e.g. there is no `&lt;title>`).</Text>
         </Document>
-        <Document ID="67">
+        <Document ID="83">
             <Title>Math Support</Title>
             <Text>It's pretty easy to include mathematical equations:
 
@@ -186,7 +214,22 @@ section there is nowhere to put metadata(e.g. there is no `&lt;title>`).</Text>
 You can also include formulas within a sentence, such as
 \\({x}^{2}+{y}^{2}=1\\).</Text>
         </Document>
-        <Document ID="68">
+        <Document ID="76">
+            <Title>Structure</Title>
+            <Text>The next thing  to look at is  the overall structure of the  document. You can
+visualize  a Markdown  document as  an  outline, with  different sections  and
+different levels within those sections. Based on your output format, these can
+be used to generate headers, or sections,  or even chapters. It's all based on
+what tools you use to process the XHTML output.
+
+Even within the XHTML document, however, you can make use of this structure to
+allow  easy navigation  within  the document.  You can  link  directly to  the
+[Introduction][] (and to [][Introduction] when using LaTeX), for instance. And
+if you are creating  a PDF, it will contain a hierarchy  of section names that
+you  can use  to  allow easy  navigation,  if your  PDF  reader supports  this
+function.</Text>
+        </Document>
+        <Document ID="84">
             <Title>Now What?</Title>
             <Text>Get out there and try it. Let me know what you think. Let me know what doesn't
 work. Let me know what you think is missing.
@@ -207,43 +250,6 @@ You can also:
 
 * Join the Markdown discussion list:  
 	&lt;http://six.pairlist.net/mailman/listinfo/markdown-discuss></Text>
-        </Document>
-        <Document ID="60">
-            <Title>Structure</Title>
-            <Text>The next thing  to look at is  the overall structure of the  document. You can
-visualize  a Markdown  document as  an  outline, with  different sections  and
-different levels within those sections. Based on your output format, these can
-be used to generate headers, or sections,  or even chapters. It's all based on
-what tools you use to process the XHTML output.
-
-Even within the XHTML document, however, you can make use of this structure to
-allow  easy navigation  within  the document.  You can  link  directly to  the
-[Introduction][] (and to [][Introduction] when using LaTeX), for instance. And
-if you are creating  a PDF, it will contain a hierarchy  of section names that
-you  can use  to  allow easy  navigation,  if your  PDF  reader supports  this
-function.</Text>
-        </Document>
-        <Document ID="61">
-            <Title>Footnotes</Title>
-            <Text>Footnotes are  very easy to  implement in  MultiMarkdown, as described  in the
-MultiMarkdown Syntax Guide.[^somesamplefootnote]
-
-[^somesamplefootnote]: Here is the text of the footnote itself.</Text>
-        </Document>
-        <Document ID="54">
-            <Title>Meta-Data</Title>
-            <Text>latex input:        mmd-article-header  
-Title:              Sample MultiMarkdown Document  
-Base Header Level:  2  
-latex mode:         memoir  
-Keywords:           MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF,   
-CSS:                http://fletcherpenney.net/css/document.css  
-xhtml header:       &lt;script type="text/javascript" 
-                    src="http://helium.local/~fletcher/mathjax/MathJax.js">
-                    &lt;/script>
-latex input:        mmd-article-begin-doc  
-latex footer:       mmd-memoir-footer  
-</Text>
         </Document>
     </Documents>
 </SearchIndexes>

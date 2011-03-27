@@ -32,12 +32,12 @@ describe, most of the features of MultiMarkdown.
 # How to Use This Document #
 
 I suggest comparing  the raw text source with the  various final outputs (e.g.
-PDF, XHTML, LaTeX, RTF)  in order to see what can  be accomplished. There will
-be  many similarities  between output  formats,  but also  a few  differences.
-Tables will  end up in  different places. Paragraphs  won't break in  the same
-way.  But these  differences are  superficial and  are a  result of  trying to
-optimize each format, without regard to identical output across formats (which
-would be virtually impossible).
+HTML, LaTeX,  PDF, OpenDocument)  in order  to see  what can  be accomplished.
+There  will be  many  similarities  between output  formats,  but  also a  few
+differences. Tables will end up in different places. Paragraphs won't break in
+the same way. But these differences are superficial and are a result of trying
+to optimize  each format,  without regard to  identical output  across formats
+(which would be virtually impossible).
 
 Remember, the main goal of Markdown\MultiMarkdown  is to allow you to create a
 document in  plain text,  with minimal  distraction from  markup, that  can be
@@ -65,11 +65,14 @@ You can download a zipfile containing multiple formats of this document:
 
 This file includes:
 
-*	The Scrivener source file
 *	A plain text file in MultiMarkdown format
-*	An XHTML file
+*	A Scrivener file
+*	An HTML file
 *	A PDF
-*	An RTF
+*	An OpenDocument file
+*	An OPML
+*	A LaTeX file
+*	And the included images
 
 All files were generated automatically from the MultiMarkdown source document.
 

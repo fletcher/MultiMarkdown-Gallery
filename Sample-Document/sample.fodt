@@ -156,12 +156,12 @@ technical documentation. This document is designed to <text:span text:style-name
 describe, most of the features of MultiMarkdown.</text:p>
 <text:h text:outline-level="2"><text:bookmark text:name="howtousethisdocument"/>How to Use This Document<text:bookmark-end text:name="howtousethisdocument"/></text:h>
 <text:p text:style-name="Standard">I suggest comparing the raw text source with the various final outputs (e.g.
-PDF, XHTML, LaTeX, RTF) in order to see what can be accomplished. There will
-be many similarities between output formats, but also a few differences.
-Tables will end up in different places. Paragraphs won&#8217;t break in the same
-way. But these differences are superficial and are a result of trying to
-optimize each format, without regard to identical output across formats (which
-would be virtually impossible).</text:p>
+HTML, LaTeX, PDF, OpenDocument) in order to see what can be accomplished.
+There will be many similarities between output formats, but also a few
+differences. Tables will end up in different places. Paragraphs won&#8217;t break in
+the same way. But these differences are superficial and are a result of trying
+to optimize each format, without regard to identical output across formats
+(which would be virtually impossible).</text:p>
 <text:p text:style-name="Standard">Remember, the main goal of Markdown\MultiMarkdown is to allow you to create a
 document in plain text, with minimal distraction from markup, that can be
 transformed into a variety of high quality outputs. Or, to quote John Gruber:</text:p>
@@ -178,15 +178,21 @@ email.[#Gruber]</text:p>
 <text:p text:style-name="P2"><text:a xlink:type="simple" xlink:href="http://fletcher.github.com/MultiMarkdown-Gallery">MultiMarkdown-Gallery</text:a></text:p></text:list-item>
 </text:list><text:p text:style-name="Standard">This file includes:</text:p>
 <text:list><text:list-item>
-<text:p text:style-name="P2">The Scrivener source file</text:p></text:list-item>
-<text:list-item>
 <text:p text:style-name="P2">A plain text file in MultiMarkdown format</text:p></text:list-item>
 <text:list-item>
-<text:p text:style-name="P2">An XHTML file</text:p></text:list-item>
+<text:p text:style-name="P2">A Scrivener file</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P2">An HTML file</text:p></text:list-item>
 <text:list-item>
 <text:p text:style-name="P2">A PDF</text:p></text:list-item>
 <text:list-item>
-<text:p text:style-name="P2">An RTF</text:p></text:list-item>
+<text:p text:style-name="P2">An OpenDocument file</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P2">An OPML</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P2">A LaTeX file</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P2">And the included images</text:p></text:list-item>
 </text:list><text:p text:style-name="Standard">All files were generated automatically from the MultiMarkdown source document.</text:p>
 <text:h text:outline-level="2"><text:bookmark text:name="sowhatcanthisdocumentdemonstrate"/>So, What Can This Document Demonstrate?<text:bookmark-end text:name="sowhatcanthisdocumentdemonstrate"/></text:h>
 <text:h text:outline-level="3"><text:bookmark text:name="metadata"/>Metadata<text:bookmark-end text:name="metadata"/></text:h>
