@@ -8,7 +8,7 @@ Copyright:			2009-2011 Fletcher T. Penney.
 					http://creativecommons.org/licenses/by-sa/2.5/
 base header level:	3  
 latex mode:			beamer  
-Biblio Style:		fletcher
+latex input:		mmd-natbib-plain
 Theme:				keynote-gradient
 latex input:		mmd-beamer-begin-doc
 latex footer:		mmd-beamer-footer

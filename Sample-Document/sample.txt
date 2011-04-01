@@ -10,6 +10,7 @@ xhtml header:		<script type="text/javascript"
 copyright:			2011 Fletcher T. Penney.  
 					This work is licensed under a Creative Commons License.  
 					http://creativecommons.org/licenses/by-nc-sa/3.0/  
+latex input:		mmd-natbib-plain
 latex input:		mmd-article-begin-doc  
 latex footer:		mmd-memoir-footer  
 
