@@ -40,7 +40,7 @@ suitable for using on a web page.
 
 # The new way is easier #
 
-	In order to create valid [HTML][], you need properly
+	In order to create valid [HTML], you need properly
 	coded syntax that can be cumbersome for 
 	"non-programmers" to write. Sometimes, you just want
 	to easily make certain words **bold**, and certain 
