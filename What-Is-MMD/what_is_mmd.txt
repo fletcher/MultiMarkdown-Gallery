@@ -120,7 +120,7 @@ tables line up  --- regardless of the  final format you want  your document to
 take.
 
 
-# ASCIIMathML --- it's like Markdown for mathematics
+# MultiMarkdown and Mathematics #
 
 Built  into MultiMarkdown  is support  for mathematical  equations. You  write
 using   LaTeX   syntax.    When   you   output   to   HTML,    you   can   use
@@ -169,8 +169,8 @@ becomes...
   system.
 
 * OpenDocument output doesn't require any special software, but will require
-  an application capable of opening the document (e.g. OpenOffice.org,
-  LibreOffice, etc.)
+  an application capable of opening the document --- LibreOffice,
+  OpenOffice.org (with the proper plug-in installed), etc.
 
 
 # How do I create a MultiMarkdown document? #
