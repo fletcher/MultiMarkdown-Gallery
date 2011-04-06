@@ -11,6 +11,7 @@ phone:				(555) 555-5555
 Date:				December 15, 2007  
 latex xslt:			custom-letterhead.xslt  
 black and white:	true  
+use xelatex:		true
 base header level:	2  
 latex mode:			memoir  
 latex footer:		mmd-letterhead-footer  

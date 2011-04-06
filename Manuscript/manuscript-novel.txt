@@ -12,6 +12,7 @@ Base Header Level:	2
 Comment:			Based on the information found at the BBC  
 					http://www.bbc.co.uk/writersroom/scriptsmart/formats.shtml  
 					Sample text from that same web site  
+use xelatex:		true  
 latex input:		mmd-manuscript-begin-doc  
 latex footer:		mmd-memoir-footer.tex  
 
