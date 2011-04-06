@@ -16,7 +16,7 @@ compatible with MMD 2.0, then you can download
 by Fletcher T. Penney
 
 This is an example of using MultiMarkdown to create a PDF slideshow via
-[beamer](http://latex-beamer.sourceforge.net/).
+[beamer](https://bitbucket.org/rivanvx/beamer/wiki/Home).
 
 
 ## Manuscript Example ##
