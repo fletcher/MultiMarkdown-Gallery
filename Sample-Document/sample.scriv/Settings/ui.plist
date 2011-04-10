@@ -13,7 +13,7 @@
 	</dict>
 	<key>binderSelection</key>
 	<array>
-		<integer>2</integer>
+		<integer>0</integer>
 	</array>
 	<key>binderSplitFrames</key>
 	<array>
@@ -23,7 +23,7 @@
 	<key>binderState</key>
 	<array>
 		<integer>0</integer>
-		<integer>69</integer>
+		<integer>85</integer>
 		<integer>1</integer>
 	</array>
 	<key>closedSuccessfully</key>
@@ -47,12 +47,12 @@
 	<real>200</real>
 	<key>mainDocumentEditor.binderDocuments</key>
 	<array>
-		<integer>71</integer>
+		<integer>0</integer>
 	</array>
 	<key>mainDocumentEditor.corkboardVisible</key>
 	<false/>
 	<key>mainDocumentEditor.currentEditorViewMode</key>
-	<integer>0</integer>
+	<integer>2</integer>
 	<key>mainDocumentEditor.editorGroupsViewMode</key>
 	<integer>2</integer>
 	<key>mainDocumentEditor.lockedInPlace</key>
@@ -434,20 +434,7 @@
 			<dict>
 				<key>BinderDocIDs</key>
 				<array>
-					<integer>70</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>70</integer>
-					<integer>71</integer>
-					<integer>72</integer>
-					<integer>73</integer>
-					<integer>74</integer>
-					<integer>84</integer>
+					<integer>2</integer>
 				</array>
 				<key>ViewMode</key>
 				<integer>2</integer>
@@ -455,7 +442,44 @@
 			<dict>
 				<key>BinderDocIDs</key>
 				<array>
-					<integer>70</integer>
+					<integer>1</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>0</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>86</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>86</integer>
+					<integer>87</integer>
+					<integer>88</integer>
+					<integer>89</integer>
+					<integer>90</integer>
+					<integer>100</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>86</integer>
 				</array>
 				<key>ViewMode</key>
 				<integer>0</integer>
@@ -471,7 +495,7 @@
 			<dict>
 				<key>BinderDocIDs</key>
 				<array>
-					<integer>70</integer>
+					<integer>90</integer>
 				</array>
 				<key>ViewMode</key>
 				<integer>0</integer>
@@ -479,49 +503,34 @@
 			<dict>
 				<key>BinderDocIDs</key>
 				<array>
-					<integer>71</integer>
+					<integer>0</integer>
+					<integer>86</integer>
+					<integer>87</integer>
+					<integer>88</integer>
+					<integer>89</integer>
+					<integer>90</integer>
+					<integer>100</integer>
+					<integer>1</integer>
+					<integer>20</integer>
+					<integer>2</integer>
 				</array>
 				<key>ViewMode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 			<dict>
 				<key>BinderDocIDs</key>
 				<array>
-					<integer>72</integer>
+					<integer>0</integer>
 				</array>
 				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>73</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>72</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>71</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</array>
 	</dict>
 	<key>mainDocumentEditor.outlinerVisible</key>
 	<false/>
-	<key>mainDocumentEditor.selectedRanges</key>
-	<string>{0, 0}</string>
+	<key>mainDocumentEditor.selectedItemIDs</key>
+	<array/>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>
