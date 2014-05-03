@@ -100,7 +100,7 @@ programmers.
   high quality pdf (article, book, or presentation like this one) without any
   additional programming.
 
-* Most importantly, you don't have to know how this works, or even what it
+* Most importantly, you don't have to know how this works, or even what
   the LaTeX commands mean --- just have the software installed.
 
 
