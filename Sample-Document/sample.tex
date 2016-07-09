@@ -7,12 +7,13 @@ This work is licensed under a Creative Commons License.  \\
 http:/\slash creativecommons.org\slash licenses\slash by-nc-sa\slash 3.0\slash }
 \input{mmd-natbib-plain}
 \input{mmd-article-begin-doc}
+
 \chapter{Introduction}
 \label{introduction}
 
 As I add increasing numbers of features to MultiMarkdown, I decided it was
 time to create a sample document to show them off. Many of the features are
-demonstrated in the \href{http://fletcherpenney.net/mmd/users_guide/}{MultiMarkdown User's Guide}\footnote{\href{http://fletcherpenney.net/mmd/users_guide/}{http:/\slash fletcherpenney.net\slash mmd\slash users\_guide\slash }}, but some are not.
+demonstrated in the \href{http://fletcherpenney.net/mmd/users_guide/}{MultiMarkdown User's Guide}\footnote{\href{http://fletcherpenney.net/mmd/users\_guide/}{http:/\slash fletcherpenney.net\slash mmd\slash users\_guide\slash }}, but some are not.
 
 Additionally, it's easy for those features to get lost within all of the
 technical documentation. This document is designed to \emph{demonstrate}, not
@@ -29,7 +30,7 @@ the same way. But these differences are superficial and are a result of trying
 to optimize each format, without regard to identical output across formats
 (which would be virtually impossible).
 
-Remember, the main goal of Markdown$\backslash$MultiMarkdown is to allow you to create a
+Remember, the main goal of Markdown\textbackslash{}MultiMarkdown is to allow you to create a
 document in plain text, with minimal distraction from markup, that can be
 transformed into a variety of high quality outputs. Or, to quote John Gruber:
 
@@ -50,7 +51,7 @@ email.~\citep{Gruber}
 You can download a zipfile containing multiple formats of this document:
 
 \begin{itemize}
-\item \href{http://fletcher.github.com/MultiMarkdown-Gallery}{MultiMarkdown-Gallery}\footnote{\href{http://fletcher.github.com/MultiMarkdown-Gallery}{http:/\slash fletcher.github.com\slash MultiMarkdown-Gallery}}
+\item \href{https://github.com/fletcher/MultiMarkdown-Gallery/releases}{MultiMarkdown-Gallery}\footnote{\href{https://github.com/fletcher/MultiMarkdown-Gallery/releases}{https:/\slash github.com\slash fletcher\slash MultiMarkdown-Gallery\slash releases}}
 
 \end{itemize}
 
@@ -148,7 +149,7 @@ example, here is a table comparing MultiMarkdown vs. Crayons (\autoref{multimark
 \small
 \caption{This is a caption with \emph{italics}}
 \label{multimarkdownvs.crayons}
-\begin{tabular}{@{}lcc@{}} \toprule
+\begin{tabulary}{\textwidth}{@{}LCC@{}} \toprule
 Features&MultiMarkdown&Crayons\\
 \midrule
 Melts in warm places&No&Yes\\
@@ -161,10 +162,9 @@ Minimum markup for maximum quality?&Yes&No\\
 
 \bottomrule
 
-\end{tabular}
+\end{tabulary}
 \end{minipage}
 \end{table}
-
 
 \section{Typographical conventions}
 \label{typographicalconventions}
@@ -193,8 +193,6 @@ the image in a pdf.
 \caption{This is a \textbf{bolded} caption}
 \label{nautilusstar}
 \end{figure}
-
-
 
 \section{Bibliography Support}
 \label{bibliographysupport}
@@ -279,8 +277,14 @@ John Gruber. Daring Fireball: Markdown. [Cited January 2006].
  Available from \href{http://daringfireball.net/projects/markdown/}{http:/\slash daringfireball.net\slash projects\slash markdown\slash }.
 
 
+
+
+
+
 \bibitem{fake}
 John Doe. \emph{A Totally Fake Book}. Vanity Press, 2006.
+
+
 
 
 \end{thebibliography}

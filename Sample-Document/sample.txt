@@ -60,7 +60,7 @@ email.[#Gruber]
 
 You can download a zipfile containing multiple formats of this document:
 
-* [MultiMarkdown-Gallery](http://fletcher.github.com/MultiMarkdown-Gallery)
+* [MultiMarkdown-Gallery](https://github.com/fletcher/MultiMarkdown-Gallery/releases)
 
 
 This file includes:
